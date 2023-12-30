@@ -41,7 +41,7 @@ class InteractionProcessor:
         # this is to be done AFTER self.interactions has been updated
 
         for pair in self.interactions:
-            if self.interactions[pair]['combined_score'] > 0.9:
+            if self.interactions[pair]['combined_score'] > 0.95:
                 for protein_name in pair:
                     if protein_name not in self.protein_name_list:
                         self.protein_name_list.append(protein_name)
@@ -58,7 +58,7 @@ class InteractionProcessor:
 
         # create Protein class interactions depending on the desired likelihood
         for pair in self.interactions:
-            if self.interactions[pair]['combined_score'] > 0.9:
+            if self.interactions[pair]['combined_score'] > 0.95:
                 protein0 = next((protein for protein in self.total_proteins if protein.name == pair[0]), None)
                 protein1 = next((protein for protein in self.total_proteins if protein.name == pair[1]), None)
 

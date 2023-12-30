@@ -20,14 +20,17 @@ def search_files(directory, new_file_path):
                 # Open each file for reading
                 with open(file_path, 'r') as f:
                     # Read the file content
-                    content = f.read()
+                    content = f.readlines()[1:]
 
                     # Write the content to the new file
-                    new_file.write(content + "\n")
+                    new_file.writelines(content)
 
 
 # Example usage
-search_files('C:\\Users\\User\PycharmProjects\pythonProject5', 'scaffolds#.tsv')  # Searching for .txt files
+search_files('C:\\Users\\User\PycharmProjects\pythonProject5\scaffolds_layer_Proteins_and_their_interactions',
+             'scaffolds#.tsv')  # Searching for .txt files
+search_files('C:\\Users\\User\PycharmProjects\pythonProject5\2nd_layer_Proteins_and_their_interactions',
+             '2nd_layer#.tsv')  # Searching for .txt files
 
 add_proteins_to_layer('QDPR.tsv', '6th_layer.tsv')
 add_proteins_to_layer('ASPH.tsv', '6th_layer.tsv')
