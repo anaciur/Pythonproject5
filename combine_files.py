@@ -29,7 +29,7 @@ def search_files(directory, new_file_path):
 # Example usage
 search_files('C:\\Users\\User\PycharmProjects\pythonProject5\scaffolds_layer_Proteins_and_their_interactions',
              'scaffolds#.tsv')  # Searching for .txt files
-search_files('C:\\Users\\User\PycharmProjects\pythonProject5\2nd_layer_Proteins_and_their_interactions',
+search_files('C:\\Users\\User\PycharmProjects\pythonProject5\\2nd_layer_Proteins_and_their_interactions',
              '2nd_layer#.tsv')  # Searching for .txt files
 
 add_proteins_to_layer('QDPR.tsv', '6th_layer.tsv')
