@@ -1,0 +1,11 @@
+#node1	node2	node1_string_id	node2_string_id	neighborhood_on_chromosome	gene_fusion	phylogenetic_cooccurrence	homology	coexpression	experimentally_determined_interaction	database_annotated	automated_textmining	combined_score
+APBA1	APP	0	0	0	0	0	0	0	0	0	0	0.999
+APBA1	CASK	0	0	0	0	0	0	0	0	0	0	0.999
+APBA1	KIF17	0	0	0	0	0	0	0	0	0	0	0.996
+APBA1	STXBP1	0	0	0	0	0	0	0	0	0	0	0.992
+APBA1	LIN7C	0	0	0	0	0	0	0	0	0	0	0.987
+APBA1	LIN7B	0	0	0	0	0	0	0	0	0	0	0.968
+APBA1	GRIN2B	0	0	0	0	0	0	0	0	0	0	0.968
+APBA1	LIN7A	0	0	0	0	0	0	0	0	0	0	0.966
+APBA1	PPFIA2	0	0	0	0	0	0	0	0	0	0	0.963
+APBA1	PPFIA1	0	0	0	0	0	0	0	0	0	0	0.962

@@ -1,0 +1,11 @@
+#node1	node2	node1_string_id	node2_string_id	neighborhood_on_chromosome	gene_fusion	phylogenetic_cooccurrence	homology	coexpression	experimentally_determined_interaction	database_annotated	automated_textmining	combined_score
+NCK2	LIMS1	0	0	0	0	0	0	0	0	0	0	0.999
+NCK2	EFNB1	0	0	0	0	0	0	0	0	0	0	0.997
+NCK2	ILK	0	0	0	0	0	0	0	0	0	0	0.996
+NCK2	PAK1	0	0	0	0	0	0	0	0	0	0	0.995
+NCK2	KDR	0	0	0	0	0	0	0	0	0	0	0.994
+NCK2	WASL	0	0	0	0	0	0	0	0	0	0	0.993
+NCK2	EFNB2	0	0	0	0	0	0	0	0	0	0	0.99
+NCK2	EGFR	0	0	0	0	0	0	0	0	0	0	0.986
+NCK2	GIT1	0	0	0	0	0	0	0	0	0	0	0.983
+NCK2	NPHS1	0	0	0	0	0	0	0	0	0	0	0.98

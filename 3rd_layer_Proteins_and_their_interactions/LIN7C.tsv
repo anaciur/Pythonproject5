@@ -1,0 +1,11 @@
+#node1	node2	node1_string_id	node2_string_id	neighborhood_on_chromosome	gene_fusion	phylogenetic_cooccurrence	homology	coexpression	experimentally_determined_interaction	database_annotated	automated_textmining	combined_score
+LIN7C	CASK	0	0	0	0	0	0	0	0	0	0	0.993
+LIN7C	APBA1	0	0	0	0	0	0	0	0	0	0	0.987
+LIN7C	LIN7B	0	0	0	0	0	0	0	0	0	0	0.973
+LIN7C	MPP6	0	0	0	0	0	0	0	0	0	0	0.969
+LIN7C	MPP5	0	0	0	0	0	0	0	0	0	0	0.966
+LIN7C	MPP2	0	0	0	0	0	0	0	0	0	0	0.962
+LIN7C	DLG1	0	0	0	0	0	0	0	0	0	0	0.955
+LIN7C	PPFIA1	0	0	0	0	0	0	0	0	0	0	0.952
+LIN7C	MPP7	0	0	0	0	0	0	0	0	0	0	0.947
+LIN7C	PPFIA2	0	0	0	0	0	0	0	0	0	0	0.934

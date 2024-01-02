@@ -1,0 +1,11 @@
+#node1	node2	node1_string_id	node2_string_id	neighborhood_on_chromosome	gene_fusion	phylogenetic_cooccurrence	homology	coexpression	experimentally_determined_interaction	database_annotated	automated_textmining	combined_score
+ADAM17	TIMP3	0	0	0	0	0	0	0	0	0	0	0.987
+ADAM17	TNF	0	0	0	0	0	0	0	0	0	0	0.987
+ADAM17	RHBDF2	0	0	0	0	0	0	0	0	0	0	0.987
+ADAM17	NOTCH1	0	0	0	0	0	0	0	0	0	0	0.978
+ADAM17	JAG1	0	0	0	0	0	0	0	0	0	0	0.969
+ADAM17	HBEGF	0	0	0	0	0	0	0	0	0	0	0.968
+ADAM17	FURIN	0	0	0	0	0	0	0	0	0	0	0.968
+ADAM17	EGF	0	0	0	0	0	0	0	0	0	0	0.964
+ADAM17	TNFRSF1B	0	0	0	0	0	0	0	0	0	0	0.964
+ADAM17	ERBB4	0	0	0	0	0	0	0	0	0	0	0.959

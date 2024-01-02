@@ -1,0 +1,11 @@
+#node1	node2	node1_string_id	node2_string_id	neighborhood_on_chromosome	gene_fusion	phylogenetic_cooccurrence	homology	coexpression	experimentally_determined_interaction	database_annotated	automated_textmining	combined_score
+RICTOR	DEPTOR	0	0	0	0	0	0	0	0	0	0	0.999
+RICTOR	MLST8	0	0	0	0	0	0	0	0	0	0	0.999
+RICTOR	PRR5	0	0	0	0	0	0	0	0	0	0	0.999
+RICTOR	MAPKAP1	0	0	0	0	0	0	0	0	0	0	0.999
+RICTOR	MTOR	0	0	0	0	0	0	0	0	0	0	0.999
+RICTOR	ILK	0	0	0	0	0	0	0	0	0	0	0.999
+RICTOR	RPTOR	0	0	0	0	0	0	0	0	0	0	0.999
+RICTOR	AKT1	0	0	0	0	0	0	0	0	0	0	0.998
+RICTOR	TSC2	0	0	0	0	0	0	0	0	0	0	0.997
+RICTOR	PRR5L	0	0	0	0	0	0	0	0	0	0	0.996

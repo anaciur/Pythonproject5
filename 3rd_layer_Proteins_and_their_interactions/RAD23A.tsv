@@ -1,0 +1,11 @@
+#node1	node2	node1_string_id	node2_string_id	neighborhood_on_chromosome	gene_fusion	phylogenetic_cooccurrence	homology	coexpression	experimentally_determined_interaction	database_annotated	automated_textmining	combined_score
+RAD23A	PSMD4	0	0	0	0	0	0	0	0	0	0	0.999
+RAD23A	ATXN3	0	0	0	0	0	0	0	0	0	0	0.998
+RAD23A	UBC	0	0	0	0	0	0	0	0	0	0	0.998
+RAD23A	XPC	0	0	0	0	0	0	0	0	0	0	0.996
+RAD23A	UBQLN2	0	0	0	0	0	0	0	0	0	0	0.991
+RAD23A	UBE3A	0	0	0	0	0	0	0	0	0	0	0.985
+RAD23A	NGLY1	0	0	0	0	0	0	0	0	0	0	0.979
+RAD23A	PSMC2	0	0	0	0	0	0	0	0	0	0	0.976
+RAD23A	UBB	0	0	0	0	0	0	0	0	0	0	0.976
+RAD23A	UBQLN1	0	0	0	0	0	0	0	0	0	0	0.976

@@ -1,0 +1,11 @@
+#node1	node2	node1_string_id	node2_string_id	neighborhood_on_chromosome	gene_fusion	phylogenetic_cooccurrence	homology	coexpression	experimentally_determined_interaction	database_annotated	automated_textmining	combined_score
+GRIP2	GRIA2	0	0	0	0	0	0	0	0	0	0	0.993
+GRIP2	PICK1	0	0	0	0	0	0	0	0	0	0	0.973
+GRIP2	GRIA3	0	0	0	0	0	0	0	0	0	0	0.964
+GRIP2	GRIA1	0	0	0	0	0	0	0	0	0	0	0.955
+GRIP2	GRIA4	0	0	0	0	0	0	0	0	0	0	0.954
+GRIP2	NSF	0	0	0	0	0	0	0	0	0	0	0.929
+GRIP2	PRKCA	0	0	0	0	0	0	0	0	0	0	0.917
+GRIP2	PRKCG	0	0	0	0	0	0	0	0	0	0	0.917
+GRIP2	GRIP1	0	0	0	0	0	0	0	0	0	0	0.916
+GRIP2	PRKCB	0	0	0	0	0	0	0	0	0	0	0.915

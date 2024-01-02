@@ -1,0 +1,11 @@
+#node1	node2	node1_string_id	node2_string_id	neighborhood_on_chromosome	gene_fusion	phylogenetic_cooccurrence	homology	coexpression	experimentally_determined_interaction	database_annotated	automated_textmining	combined_score
+MDM2	USP7	0	0	0	0	0	0	0	0	0	0	0.999
+MDM2	RPL11	0	0	0	0	0	0	0	0	0	0	0.999
+MDM2	MDM4	0	0	0	0	0	0	0	0	0	0	0.999
+MDM2	RPL5	0	0	0	0	0	0	0	0	0	0	0.999
+MDM2	CDKN2A	0	0	0	0	0	0	0	0	0	0	0.999
+MDM2	DAXX	0	0	0	0	0	0	0	0	0	0	0.999
+MDM2	HIF1A	0	0	0	0	0	0	0	0	0	0	0.999
+MDM2	UBE2D1	0	0	0	0	0	0	0	0	0	0	0.999
+MDM2	TP53	0	0	0	0	0	0	0	0	0	0	0.999
+MDM2	EP300	0	0	0	0	0	0	0	0	0	0	0.999

@@ -1,0 +1,11 @@
+#node1	node2	node1_string_id	node2_string_id	neighborhood_on_chromosome	gene_fusion	phylogenetic_cooccurrence	homology	coexpression	experimentally_determined_interaction	database_annotated	automated_textmining	combined_score
+PARD6B	CDC42	0	0	0	0	0	0	0	0	0	0	0.999
+PARD6B	PRKCI	0	0	0	0	0	0	0	0	0	0	0.998
+PARD6B	PARD3	0	0	0	0	0	0	0	0	0	0	0.998
+PARD6B	PRKCZ	0	0	0	0	0	0	0	0	0	0	0.995
+PARD6B	LLGL2	0	0	0	0	0	0	0	0	0	0	0.983
+PARD6B	LLGL1	0	0	0	0	0	0	0	0	0	0	0.978
+PARD6B	MPP5	0	0	0	0	0	0	0	0	0	0	0.957
+PARD6B	PARD6A	0	0	0	0	0	0	0	0	0	0	0.946
+PARD6B	PARD6G	0	0	0	0	0	0	0	0	0	0	0.926
+PARD6B	CRB3	0	0	0	0	0	0	0	0	0	0	0.911

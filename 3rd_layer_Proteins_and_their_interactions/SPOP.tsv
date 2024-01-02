@@ -1,0 +1,11 @@
+#node1	node2	node1_string_id	node2_string_id	neighborhood_on_chromosome	gene_fusion	phylogenetic_cooccurrence	homology	coexpression	experimentally_determined_interaction	database_annotated	automated_textmining	combined_score
+SPOP	CUL3	0	0	0	0	0	0	0	0	0	0	0.999
+SPOP	GLI3	0	0	0	0	0	0	0	0	0	0	0.998
+SPOP	GLI2	0	0	0	0	0	0	0	0	0	0	0.997
+SPOP	RBX1	0	0	0	0	0	0	0	0	0	0	0.994
+SPOP	DAXX	0	0	0	0	0	0	0	0	0	0	0.98
+SPOP	H2AFY	0	0	0	0	0	0	0	0	0	0	0.98
+SPOP	PTEN	0	0	0	0	0	0	0	0	0	0	0.979
+SPOP	GLI1	0	0	0	0	0	0	0	0	0	0	0.976
+SPOP	NCOA3	0	0	0	0	0	0	0	0	0	0	0.97
+SPOP	AR	0	0	0	0	0	0	0	0	0	0	0.965

@@ -1,0 +1,11 @@
+#node1	node2	node1_string_id	node2_string_id	neighborhood_on_chromosome	gene_fusion	phylogenetic_cooccurrence	homology	coexpression	experimentally_determined_interaction	database_annotated	automated_textmining	combined_score
+HDAC6	HSP90AA1	0	0	0	0	0	0	0	0	0	0	0.999
+HDAC6	VCP	0	0	0	0	0	0	0	0	0	0	0.997
+HDAC6	RUNX2	0	0	0	0	0	0	0	0	0	0	0.997
+HDAC6	PTGES3	0	0	0	0	0	0	0	0	0	0	0.99
+HDAC6	UBC	0	0	0	0	0	0	0	0	0	0	0.988
+HDAC6	TARDBP	0	0	0	0	0	0	0	0	0	0	0.987
+HDAC6	SIRT2	0	0	0	0	0	0	0	0	0	0	0.986
+HDAC6	EP300	0	0	0	0	0	0	0	0	0	0	0.986
+HDAC6	PROM1	0	0	0	0	0	0	0	0	0	0	0.983
+HDAC6	G3BP1	0	0	0	0	0	0	0	0	0	0	0.981

@@ -1,0 +1,11 @@
+#node1	node2	node1_string_id	node2_string_id	neighborhood_on_chromosome	gene_fusion	phylogenetic_cooccurrence	homology	coexpression	experimentally_determined_interaction	database_annotated	automated_textmining	combined_score
+ADRB2	ARRB2	0	0	0	0	0	0	0	0	0	0	0.999
+ADRB2	SLC9A3R1	0	0	0	0	0	0	0	0	0	0	0.999
+ADRB2	ARRB1	0	0	0	0	0	0	0	0	0	0	0.998
+ADRB2	GNAS	0	0	0	0	0	0	0	0	0	0	0.994
+ADRB2	ADRBK1	0	0	0	0	0	0	0	0	0	0	0.994
+ADRB2	CFTR	0	0	0	0	0	0	0	0	0	0	0.993
+ADRB2	SAG	0	0	0	0	0	0	0	0	0	0	0.99
+ADRB2	AKAP12	0	0	0	0	0	0	0	0	0	0	0.989
+ADRB2	CACNA1C	0	0	0	0	0	0	0	0	0	0	0.989
+ADRB2	AKAP5	0	0	0	0	0	0	0	0	0	0	0.989

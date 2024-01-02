@@ -1,0 +1,11 @@
+#node1	node2	node1_string_id	node2_string_id	neighborhood_on_chromosome	gene_fusion	phylogenetic_cooccurrence	homology	coexpression	experimentally_determined_interaction	database_annotated	automated_textmining	combined_score
+RAPGEF1	CRK	0	0	0	0	0	0	0	0	0	0	0.999
+RAPGEF1	CRKL	0	0	0	0	0	0	0	0	0	0	0.999
+RAPGEF1	CBL	0	0	0	0	0	0	0	0	0	0	0.998
+RAPGEF1	BCAR1	0	0	0	0	0	0	0	0	0	0	0.993
+RAPGEF1	CDH1	0	0	0	0	0	0	0	0	0	0	0.987
+RAPGEF1	RAP1A	0	0	0	0	0	0	0	0	0	0	0.981
+RAPGEF1	LRPAP1	0	0	0	0	0	0	0	0	0	0	0.975
+RAPGEF1	SRC	0	0	0	0	0	0	0	0	0	0	0.974
+RAPGEF1	RHOQ	0	0	0	0	0	0	0	0	0	0	0.973
+RAPGEF1	HRAS	0	0	0	0	0	0	0	0	0	0	0.967

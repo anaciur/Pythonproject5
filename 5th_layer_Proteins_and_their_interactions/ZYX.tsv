@@ -1,0 +1,11 @@
+#node1	node2	node1_string_id	node2_string_id	neighborhood_on_chromosome	gene_fusion	phylogenetic_cooccurrence	homology	coexpression	experimentally_determined_interaction	database_annotated	automated_textmining	combined_score
+ZYX	VASP	0	0	0	0	0	0	0	0	0	0	0.999
+ZYX	VCL	0	0	0	0	0	0	0	0	0	0	0.998
+ZYX	BCAR1	0	0	0	0	0	0	0	0	0	0	0.997
+ZYX	LASP1	0	0	0	0	0	0	0	0	0	0	0.993
+ZYX	NEBL	0	0	0	0	0	0	0	0	0	0	0.987
+ZYX	LATS1	0	0	0	0	0	0	0	0	0	0	0.985
+ZYX	ACTN1	0	0	0	0	0	0	0	0	0	0	0.977
+ZYX	TLN1	0	0	0	0	0	0	0	0	0	0	0.973
+ZYX	ACTN4	0	0	0	0	0	0	0	0	0	0	0.966
+ZYX	ILK	0	0	0	0	0	0	0	0	0	0	0.965

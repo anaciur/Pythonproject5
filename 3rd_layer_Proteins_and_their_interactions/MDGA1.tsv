@@ -1,0 +1,11 @@
+#node1	node2	node1_string_id	node2_string_id	neighborhood_on_chromosome	gene_fusion	phylogenetic_cooccurrence	homology	coexpression	experimentally_determined_interaction	database_annotated	automated_textmining	combined_score
+MDGA1	NLGN2	0	0	0	0	0	0	0	0	0	0	0.997
+MDGA1	NLGN1	0	0	0	0	0	0	0	0	0	0	0.723
+MDGA1	KCNIP2	0	0	0	0	0	0	0	0	0	0	0.674
+MDGA1	CLSTN3	0	0	0	0	0	0	0	0	0	0	0.634
+MDGA1	RORB	0	0	0	0	0	0	0	0	0	0	0.63
+MDGA1	FN1	0	0	0	0	0	0	0	0	0	0	0.607
+MDGA1	PTP4A1	0	0	0	0	0	0	0	0	0	0	0.59
+MDGA1	NRXN2	0	0	0	0	0	0	0	0	0	0	0.58
+MDGA1	AGO4	0	0	0	0	0	0	0	0	0	0	0.566
+MDGA1	NXN	0	0	0	0	0	0	0	0	0	0	0.542

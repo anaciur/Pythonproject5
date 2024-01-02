@@ -1,0 +1,11 @@
+#node1	node2	node1_string_id	node2_string_id	neighborhood_on_chromosome	gene_fusion	phylogenetic_cooccurrence	homology	coexpression	experimentally_determined_interaction	database_annotated	automated_textmining	combined_score
+PREX2	PTEN	0	0	0	0	0	0	0	0	0	0	0.982
+PREX2	RAC1	0	0	0	0	0	0	0	0	0	0	0.964
+PREX2	GNMT	0	0	0	0	0	0	0	0	0	0	0.7
+PREX2	HUWE1	0	0	0	0	0	0	0	0	0	0	0.673
+PREX2	CDC42	0	0	0	0	0	0	0	0	0	0	0.671
+PREX2	GNB1	0	0	0	0	0	0	0	0	0	0	0.671
+PREX2	NRAS	0	0	0	0	0	0	0	0	0	0	0.668
+PREX2	HRAS	0	0	0	0	0	0	0	0	0	0	0.644
+PREX2	RAC2	0	0	0	0	0	0	0	0	0	0	0.627
+PREX2	MTOR	0	0	0	0	0	0	0	0	0	0	0.607

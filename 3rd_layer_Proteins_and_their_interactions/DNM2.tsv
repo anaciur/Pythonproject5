@@ -1,0 +1,11 @@
+#node1	node2	node1_string_id	node2_string_id	neighborhood_on_chromosome	gene_fusion	phylogenetic_cooccurrence	homology	coexpression	experimentally_determined_interaction	database_annotated	automated_textmining	combined_score
+DNM2	GRB2	0	0	0	0	0	0	0	0	0	0	0.999
+DNM2	CTTN	0	0	0	0	0	0	0	0	0	0	0.997
+DNM2	SNX9	0	0	0	0	0	0	0	0	0	0	0.995
+DNM2	CAV1	0	0	0	0	0	0	0	0	0	0	0.993
+DNM2	NME1	0	0	0	0	0	0	0	0	0	0	0.993
+DNM2	AMPH	0	0	0	0	0	0	0	0	0	0	0.992
+DNM2	BIN1	0	0	0	0	0	0	0	0	0	0	0.991
+DNM2	SH3GL3	0	0	0	0	0	0	0	0	0	0	0.99
+DNM2	SRC	0	0	0	0	0	0	0	0	0	0	0.987
+DNM2	SH3GL2	0	0	0	0	0	0	0	0	0	0	0.983

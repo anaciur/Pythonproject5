@@ -1,0 +1,11 @@
+#node1	node2	node1_string_id	node2_string_id	neighborhood_on_chromosome	gene_fusion	phylogenetic_cooccurrence	homology	coexpression	experimentally_determined_interaction	database_annotated	automated_textmining	combined_score
+PIK3CA	PIK3R1	0	0	0	0	0	0	0	0	0	0	0.999
+PIK3CA	PIK3R3	0	0	0	0	0	0	0	0	0	0	0.999
+PIK3CA	HRAS	0	0	0	0	0	0	0	0	0	0	0.999
+PIK3CA	KRAS	0	0	0	0	0	0	0	0	0	0	0.999
+PIK3CA	IRS1	0	0	0	0	0	0	0	0	0	0	0.999
+PIK3CA	PIK3R2	0	0	0	0	0	0	0	0	0	0	0.999
+PIK3CA	AKT1	0	0	0	0	0	0	0	0	0	0	0.998
+PIK3CA	EGFR	0	0	0	0	0	0	0	0	0	0	0.996
+PIK3CA	PTEN	0	0	0	0	0	0	0	0	0	0	0.995
+PIK3CA	ERBB3	0	0	0	0	0	0	0	0	0	0	0.99

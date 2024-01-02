@@ -1,0 +1,11 @@
+#node1	node2	node1_string_id	node2_string_id	neighborhood_on_chromosome	gene_fusion	phylogenetic_cooccurrence	homology	coexpression	experimentally_determined_interaction	database_annotated	automated_textmining	combined_score
+NRG4	ERBB4	0	0	0	0	0	0	0	0	0	0	0.998
+NRG4	NRG2	0	0	0	0	0	0	0	0	0	0	0.981
+NRG4	NRG3	0	0	0	0	0	0	0	0	0	0	0.981
+NRG4	EGFR	0	0	0	0	0	0	0	0	0	0	0.953
+NRG4	ERBB2	0	0	0	0	0	0	0	0	0	0	0.945
+NRG4	NRG1	0	0	0	0	0	0	0	0	0	0	0.93
+NRG4	ADAM17	0	0	0	0	0	0	0	0	0	0	0.91
+NRG4	HRAS	0	0	0	0	0	0	0	0	0	0	0.906
+NRG4	KRAS	0	0	0	0	0	0	0	0	0	0	0.905
+NRG4	ERBB3	0	0	0	0	0	0	0	0	0	0	0.902

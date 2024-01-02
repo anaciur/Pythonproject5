@@ -1,0 +1,11 @@
+#node1	node2	node1_string_id	node2_string_id	neighborhood_on_chromosome	gene_fusion	phylogenetic_cooccurrence	homology	coexpression	experimentally_determined_interaction	database_annotated	automated_textmining	combined_score
+GRIA4	CACNG2	0	0	0	0	0	0	0	0	0	0	0.988
+GRIA4	PICK1	0	0	0	0	0	0	0	0	0	0	0.981
+GRIA4	DLG4	0	0	0	0	0	0	0	0	0	0	0.978
+GRIA4	EPB41L1	0	0	0	0	0	0	0	0	0	0	0.974
+GRIA4	GRIP1	0	0	0	0	0	0	0	0	0	0	0.97
+GRIA4	PRKCG	0	0	0	0	0	0	0	0	0	0	0.965
+GRIA4	CAMK2A	0	0	0	0	0	0	0	0	0	0	0.964
+GRIA4	DLG2	0	0	0	0	0	0	0	0	0	0	0.961
+GRIA4	GRIA2	0	0	0	0	0	0	0	0	0	0	0.958
+GRIA4	CACNG4	0	0	0	0	0	0	0	0	0	0	0.958

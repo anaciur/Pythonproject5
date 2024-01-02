@@ -1,0 +1,11 @@
+#node1	node2	node1_string_id	node2_string_id	neighborhood_on_chromosome	gene_fusion	phylogenetic_cooccurrence	homology	coexpression	experimentally_determined_interaction	database_annotated	automated_textmining	combined_score
+PSMD4	PSMA3	0	0	0	0	0	0	0	0	0	0	0.999
+PSMD4	PSMA7	0	0	0	0	0	0	0	0	0	0	0.999
+PSMD4	USP14	0	0	0	0	0	0	0	0	0	0	0.999
+PSMD4	PSMD6	0	0	0	0	0	0	0	0	0	0	0.999
+PSMD4	PSMC1	0	0	0	0	0	0	0	0	0	0	0.999
+PSMD4	ADRM1	0	0	0	0	0	0	0	0	0	0	0.999
+PSMD4	UBQLN1	0	0	0	0	0	0	0	0	0	0	0.999
+PSMD4	PSMD5	0	0	0	0	0	0	0	0	0	0	0.999
+PSMD4	PSMD8	0	0	0	0	0	0	0	0	0	0	0.999
+PSMD4	PSMD7	0	0	0	0	0	0	0	0	0	0	0.999

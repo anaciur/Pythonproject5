@@ -1,0 +1,11 @@
+#node1	node2	node1_string_id	node2_string_id	neighborhood_on_chromosome	gene_fusion	phylogenetic_cooccurrence	homology	coexpression	experimentally_determined_interaction	database_annotated	automated_textmining	combined_score
+UBQLN1	PSMD4	0	0	0	0	0	0	0	0	0	0	0.999
+UBQLN1	UBE4B	0	0	0	0	0	0	0	0	0	0	0.993
+UBQLN1	EPS15	0	0	0	0	0	0	0	0	0	0	0.986
+UBQLN1	GABARAPL2	0	0	0	0	0	0	0	0	0	0	0.982
+UBQLN1	VCP	0	0	0	0	0	0	0	0	0	0	0.977
+UBQLN1	CD47	0	0	0	0	0	0	0	0	0	0	0.977
+UBQLN1	RAD23A	0	0	0	0	0	0	0	0	0	0	0.976
+UBQLN1	GABARAP	0	0	0	0	0	0	0	0	0	0	0.97
+UBQLN1	UBC	0	0	0	0	0	0	0	0	0	0	0.969
+UBQLN1	RAD23B	0	0	0	0	0	0	0	0	0	0	0.949

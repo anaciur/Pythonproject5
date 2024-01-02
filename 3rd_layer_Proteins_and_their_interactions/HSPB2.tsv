@@ -1,0 +1,11 @@
+#node1	node2	node1_string_id	node2_string_id	neighborhood_on_chromosome	gene_fusion	phylogenetic_cooccurrence	homology	coexpression	experimentally_determined_interaction	database_annotated	automated_textmining	combined_score
+HSPB2	MAPK14	0	0	0	0	0	0	0	0	0	0	0.957
+HSPB2	MAPK11	0	0	0	0	0	0	0	0	0	0	0.929
+HSPB2	MAPK12	0	0	0	0	0	0	0	0	0	0	0.904
+HSPB2	HSP90AA1	0	0	0	0	0	0	0	0	0	0	0.902
+HSPB2	HSPB3	0	0	0	0	0	0	0	0	0	0	0.898
+HSPB2	AKT1	0	0	0	0	0	0	0	0	0	0	0.892
+HSPB2	HSPA4	0	0	0	0	0	0	0	0	0	0	0.889
+HSPB2	DMPK	0	0	0	0	0	0	0	0	0	0	0.877
+HSPB2	CRYAB	0	0	0	0	0	0	0	0	0	0	0.874
+HSPB2	MAPK13	0	0	0	0	0	0	0	0	0	0	0.874

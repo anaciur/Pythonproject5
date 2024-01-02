@@ -1,0 +1,11 @@
+#node1	node2	node1_string_id	node2_string_id	neighborhood_on_chromosome	gene_fusion	phylogenetic_cooccurrence	homology	coexpression	experimentally_determined_interaction	database_annotated	automated_textmining	combined_score
+CTNNB1	CDH3	0	0	0	0	0	0	0	0	0	0	0.999
+CTNNB1	CDH2	0	0	0	0	0	0	0	0	0	0	0.999
+CTNNB1	EGFR	0	0	0	0	0	0	0	0	0	0	0.999
+CTNNB1	CTNNA1	0	0	0	0	0	0	0	0	0	0	0.999
+CTNNB1	DVL1	0	0	0	0	0	0	0	0	0	0	0.999
+CTNNB1	CTNNBIP1	0	0	0	0	0	0	0	0	0	0	0.999
+CTNNB1	TCF7L2	0	0	0	0	0	0	0	0	0	0	0.999
+CTNNB1	APC	0	0	0	0	0	0	0	0	0	0	0.999
+CTNNB1	CREBBP	0	0	0	0	0	0	0	0	0	0	0.999
+CTNNB1	IQGAP1	0	0	0	0	0	0	0	0	0	0	0.999

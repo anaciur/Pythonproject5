@@ -1,0 +1,11 @@
+#node1	node2	node1_string_id	node2_string_id	neighborhood_on_chromosome	gene_fusion	phylogenetic_cooccurrence	homology	coexpression	experimentally_determined_interaction	database_annotated	automated_textmining	combined_score
+ERBB2	EGF	0	0	0	0	0	0	0	0	0	0	0.999
+ERBB2	GRB2	0	0	0	0	0	0	0	0	0	0	0.999
+ERBB2	HSP90AA1	0	0	0	0	0	0	0	0	0	0	0.999
+ERBB2	CTNNB1	0	0	0	0	0	0	0	0	0	0	0.999
+ERBB2	SHC1	0	0	0	0	0	0	0	0	0	0	0.999
+ERBB2	CD44	0	0	0	0	0	0	0	0	0	0	0.999
+ERBB2	GRB7	0	0	0	0	0	0	0	0	0	0	0.999
+ERBB2	ERBB2IP	0	0	0	0	0	0	0	0	0	0	0.999
+ERBB2	NRG1	0	0	0	0	0	0	0	0	0	0	0.999
+ERBB2	EGFR	0	0	0	0	0	0	0	0	0	0	0.998

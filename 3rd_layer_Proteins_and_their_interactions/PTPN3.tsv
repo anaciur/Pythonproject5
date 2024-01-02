@@ -1,0 +1,11 @@
+#node1	node2	node1_string_id	node2_string_id	neighborhood_on_chromosome	gene_fusion	phylogenetic_cooccurrence	homology	coexpression	experimentally_determined_interaction	database_annotated	automated_textmining	combined_score
+PTPN3	EPS15	0	0	0	0	0	0	0	0	0	0	0.981
+PTPN3	MAPK12	0	0	0	0	0	0	0	0	0	0	0.978
+PTPN3	EGFR	0	0	0	0	0	0	0	0	0	0	0.935
+PTPN3	GRB2	0	0	0	0	0	0	0	0	0	0	0.92
+PTPN3	EPS15L1	0	0	0	0	0	0	0	0	0	0	0.912
+PTPN3	EGF	0	0	0	0	0	0	0	0	0	0	0.912
+PTPN3	CBL	0	0	0	0	0	0	0	0	0	0	0.911
+PTPN3	AREG	0	0	0	0	0	0	0	0	0	0	0.905
+PTPN3	HGS	0	0	0	0	0	0	0	0	0	0	0.905
+PTPN3	STAM	0	0	0	0	0	0	0	0	0	0	0.903

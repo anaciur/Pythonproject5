@@ -1,0 +1,11 @@
+#node1	node2	node1_string_id	node2_string_id	neighborhood_on_chromosome	gene_fusion	phylogenetic_cooccurrence	homology	coexpression	experimentally_determined_interaction	database_annotated	automated_textmining	combined_score
+CAV1	NOS3	0	0	0	0	0	0	0	0	0	0	0.999
+CAV1	TGFBR1	0	0	0	0	0	0	0	0	0	0	0.999
+CAV1	EGFR	0	0	0	0	0	0	0	0	0	0	0.999
+CAV1	SRC	0	0	0	0	0	0	0	0	0	0	0.999
+CAV1	FYN	0	0	0	0	0	0	0	0	0	0	0.998
+CAV1	ESR1	0	0	0	0	0	0	0	0	0	0	0.998
+CAV1	TRPC1	0	0	0	0	0	0	0	0	0	0	0.998
+CAV1	CAV2	0	0	0	0	0	0	0	0	0	0	0.998
+CAV1	PTRF	0	0	0	0	0	0	0	0	0	0	0.997
+CAV1	LRP6	0	0	0	0	0	0	0	0	0	0	0.996

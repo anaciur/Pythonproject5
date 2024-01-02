@@ -1,0 +1,11 @@
+#node1	node2	node1_string_id	node2_string_id	neighborhood_on_chromosome	gene_fusion	phylogenetic_cooccurrence	homology	coexpression	experimentally_determined_interaction	database_annotated	automated_textmining	combined_score
+EPS8	SOS1	0	0	0	0	0	0	0	0	0	0	0.999
+EPS8	BAIAP2	0	0	0	0	0	0	0	0	0	0	0.999
+EPS8	ABI1	0	0	0	0	0	0	0	0	0	0	0.999
+EPS8	USP6NL	0	0	0	0	0	0	0	0	0	0	0.998
+EPS8	EGFR	0	0	0	0	0	0	0	0	0	0	0.996
+EPS8	CDC42	0	0	0	0	0	0	0	0	0	0	0.977
+EPS8	DFNB31	0	0	0	0	0	0	0	0	0	0	0.972
+EPS8	RAB5A	0	0	0	0	0	0	0	0	0	0	0.959
+EPS8	PALLD	0	0	0	0	0	0	0	0	0	0	0.947
+EPS8	CASK	0	0	0	0	0	0	0	0	0	0	0.938

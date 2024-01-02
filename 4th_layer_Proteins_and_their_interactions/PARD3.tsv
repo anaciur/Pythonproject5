@@ -1,0 +1,11 @@
+#node1	node2	node1_string_id	node2_string_id	neighborhood_on_chromosome	gene_fusion	phylogenetic_cooccurrence	homology	coexpression	experimentally_determined_interaction	database_annotated	automated_textmining	combined_score
+PARD3	CDC42	0	0	0	0	0	0	0	0	0	0	0.999
+PARD3	PARD6A	0	0	0	0	0	0	0	0	0	0	0.999
+PARD3	PRKCI	0	0	0	0	0	0	0	0	0	0	0.999
+PARD3	PARD6B	0	0	0	0	0	0	0	0	0	0	0.998
+PARD3	PARD6G	0	0	0	0	0	0	0	0	0	0	0.995
+PARD3	PTEN	0	0	0	0	0	0	0	0	0	0	0.993
+PARD3	PRKCZ	0	0	0	0	0	0	0	0	0	0	0.99
+PARD3	TIAM1	0	0	0	0	0	0	0	0	0	0	0.987
+PARD3	F11R	0	0	0	0	0	0	0	0	0	0	0.979
+PARD3	JAM3	0	0	0	0	0	0	0	0	0	0	0.969

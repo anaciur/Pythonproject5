@@ -1,0 +1,11 @@
+#node1	node2	node1_string_id	node2_string_id	neighborhood_on_chromosome	gene_fusion	phylogenetic_cooccurrence	homology	coexpression	experimentally_determined_interaction	database_annotated	automated_textmining	combined_score
+ACTR2	ARPC1A	0	0	0	0	0	0	0	0	0	0	0.999
+ACTR2	ARPC2	0	0	0	0	0	0	0	0	0	0	0.999
+ACTR2	ARPC5L	0	0	0	0	0	0	0	0	0	0	0.999
+ACTR2	ARPC5	0	0	0	0	0	0	0	0	0	0	0.999
+ACTR2	WAS	0	0	0	0	0	0	0	0	0	0	0.999
+ACTR2	ARPC4	0	0	0	0	0	0	0	0	0	0	0.999
+ACTR2	ARPC3	0	0	0	0	0	0	0	0	0	0	0.999
+ACTR2	ACTR3	0	0	0	0	0	0	0	0	0	0	0.999
+ACTR2	ARPC1B	0	0	0	0	0	0	0	0	0	0	0.999
+ACTR2	WASL	0	0	0	0	0	0	0	0	0	0	0.999

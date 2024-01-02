@@ -1,0 +1,11 @@
+#node1	node2	node1_string_id	node2_string_id	neighborhood_on_chromosome	gene_fusion	phylogenetic_cooccurrence	homology	coexpression	experimentally_determined_interaction	database_annotated	automated_textmining	combined_score
+PPFIA2	CASK	0	0	0	0	0	0	0	0	0	0	0.997
+PPFIA2	PPP2R1A	0	0	0	0	0	0	0	0	0	0	0.993
+PPFIA2	APBA1	0	0	0	0	0	0	0	0	0	0	0.963
+PPFIA2	LIN7A	0	0	0	0	0	0	0	0	0	0	0.963
+PPFIA2	PTPRF	0	0	0	0	0	0	0	0	0	0	0.945
+PPFIA2	LIN7C	0	0	0	0	0	0	0	0	0	0	0.934
+PPFIA2	LIN7B	0	0	0	0	0	0	0	0	0	0	0.933
+PPFIA2	PTPRS	0	0	0	0	0	0	0	0	0	0	0.926
+PPFIA2	PPP2CA	0	0	0	0	0	0	0	0	0	0	0.925
+PPFIA2	PPFIBP1	0	0	0	0	0	0	0	0	0	0	0.9

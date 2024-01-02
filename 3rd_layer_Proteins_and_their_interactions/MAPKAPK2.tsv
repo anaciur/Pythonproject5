@@ -1,0 +1,11 @@
+#node1	node2	node1_string_id	node2_string_id	neighborhood_on_chromosome	gene_fusion	phylogenetic_cooccurrence	homology	coexpression	experimentally_determined_interaction	database_annotated	automated_textmining	combined_score
+MAPKAPK2	MAPK14	0	0	0	0	0	0	0	0	0	0	0.999
+MAPKAPK2	HSPB1	0	0	0	0	0	0	0	0	0	0	0.998
+MAPKAPK2	MAPK11	0	0	0	0	0	0	0	0	0	0	0.986
+MAPKAPK2	ALOX5	0	0	0	0	0	0	0	0	0	0	0.972
+MAPKAPK2	ZFP36	0	0	0	0	0	0	0	0	0	0	0.971
+MAPKAPK2	ZFP36L1	0	0	0	0	0	0	0	0	0	0	0.965
+MAPKAPK2	LSP1	0	0	0	0	0	0	0	0	0	0	0.958
+MAPKAPK2	CREB1	0	0	0	0	0	0	0	0	0	0	0.954
+MAPKAPK2	MAP2K6	0	0	0	0	0	0	0	0	0	0	0.949
+MAPKAPK2	CDC25B	0	0	0	0	0	0	0	0	0	0	0.949

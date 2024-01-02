@@ -1,0 +1,11 @@
+#node1	node2	node1_string_id	node2_string_id	neighborhood_on_chromosome	gene_fusion	phylogenetic_cooccurrence	homology	coexpression	experimentally_determined_interaction	database_annotated	automated_textmining	combined_score
+CFL1	LIMK1	0	0	0	0	0	0	0	0	0	0	0.999
+CFL1	ACTB	0	0	0	0	0	0	0	0	0	0	0.998
+CFL1	ACTA1	0	0	0	0	0	0	0	0	0	0	0.997
+CFL1	WDR1	0	0	0	0	0	0	0	0	0	0	0.997
+CFL1	PFN1	0	0	0	0	0	0	0	0	0	0	0.995
+CFL1	CAP1	0	0	0	0	0	0	0	0	0	0	0.994
+CFL1	SSH1	0	0	0	0	0	0	0	0	0	0	0.993
+CFL1	LIMK2	0	0	0	0	0	0	0	0	0	0	0.992
+CFL1	ACTG1	0	0	0	0	0	0	0	0	0	0	0.991
+CFL1	YWHAZ	0	0	0	0	0	0	0	0	0	0	0.991

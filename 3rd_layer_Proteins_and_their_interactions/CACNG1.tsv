@@ -1,0 +1,11 @@
+#node1	node2	node1_string_id	node2_string_id	neighborhood_on_chromosome	gene_fusion	phylogenetic_cooccurrence	homology	coexpression	experimentally_determined_interaction	database_annotated	automated_textmining	combined_score
+CACNG1	CACNA2D1	0	0	0	0	0	0	0	0	0	0	0.997
+CACNG1	CACNB1	0	0	0	0	0	0	0	0	0	0	0.989
+CACNG1	CACNA1D	0	0	0	0	0	0	0	0	0	0	0.965
+CACNG1	CACNA2D4	0	0	0	0	0	0	0	0	0	0	0.962
+CACNG1	CACNA1S	0	0	0	0	0	0	0	0	0	0	0.958
+CACNG1	CACNA2D2	0	0	0	0	0	0	0	0	0	0	0.952
+CACNG1	CACNG4	0	0	0	0	0	0	0	0	0	0	0.947
+CACNG1	CACNG3	0	0	0	0	0	0	0	0	0	0	0.947
+CACNG1	CACNA2D3	0	0	0	0	0	0	0	0	0	0	0.941
+CACNG1	CACNG7	0	0	0	0	0	0	0	0	0	0	0.932

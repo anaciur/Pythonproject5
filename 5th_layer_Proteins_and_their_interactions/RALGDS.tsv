@@ -1,0 +1,11 @@
+#node1	node2	node1_string_id	node2_string_id	neighborhood_on_chromosome	gene_fusion	phylogenetic_cooccurrence	homology	coexpression	experimentally_determined_interaction	database_annotated	automated_textmining	combined_score
+RALGDS	HRAS	0	0	0	0	0	0	0	0	0	0	0.999
+RALGDS	RALA	0	0	0	0	0	0	0	0	0	0	0.998
+RALGDS	KRAS	0	0	0	0	0	0	0	0	0	0	0.997
+RALGDS	RAP1A	0	0	0	0	0	0	0	0	0	0	0.997
+RALGDS	MRAS	0	0	0	0	0	0	0	0	0	0	0.987
+RALGDS	LRPAP1	0	0	0	0	0	0	0	0	0	0	0.985
+RALGDS	RALB	0	0	0	0	0	0	0	0	0	0	0.985
+RALGDS	RAP1B	0	0	0	0	0	0	0	0	0	0	0.98
+RALGDS	RRAS2	0	0	0	0	0	0	0	0	0	0	0.974
+RALGDS	NRAS	0	0	0	0	0	0	0	0	0	0	0.973

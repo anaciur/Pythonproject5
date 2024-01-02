@@ -1,0 +1,11 @@
+#node1	node2	node1_string_id	node2_string_id	neighborhood_on_chromosome	gene_fusion	phylogenetic_cooccurrence	homology	coexpression	experimentally_determined_interaction	database_annotated	automated_textmining	combined_score
+GIT2	PXN	0	0	0	0	0	0	0	0	0	0	0.999
+GIT2	ARHGEF6	0	0	0	0	0	0	0	0	0	0	0.998
+GIT2	ARHGEF7	0	0	0	0	0	0	0	0	0	0	0.998
+GIT2	NCK1	0	0	0	0	0	0	0	0	0	0	0.989
+GIT2	PAK1	0	0	0	0	0	0	0	0	0	0	0.983
+GIT2	CDC42	0	0	0	0	0	0	0	0	0	0	0.969
+GIT2	PTK2	0	0	0	0	0	0	0	0	0	0	0.961
+GIT2	ILK	0	0	0	0	0	0	0	0	0	0	0.948
+GIT2	PAK3	0	0	0	0	0	0	0	0	0	0	0.944
+GIT2	PAK2	0	0	0	0	0	0	0	0	0	0	0.944

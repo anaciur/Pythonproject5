@@ -1,0 +1,11 @@
+#node1	node2	node1_string_id	node2_string_id	neighborhood_on_chromosome	gene_fusion	phylogenetic_cooccurrence	homology	coexpression	experimentally_determined_interaction	database_annotated	automated_textmining	combined_score
+AR	FOXA1	0	0	0	0	0	0	0	0	0	0	0.999
+AR	SRC	0	0	0	0	0	0	0	0	0	0	0.999
+AR	PELP1	0	0	0	0	0	0	0	0	0	0	0.999
+AR	HSP90AA1	0	0	0	0	0	0	0	0	0	0	0.999
+AR	NCOA2	0	0	0	0	0	0	0	0	0	0	0.999
+AR	NCOA4	0	0	0	0	0	0	0	0	0	0	0.999
+AR	CTNNB1	0	0	0	0	0	0	0	0	0	0	0.999
+AR	NCOA1	0	0	0	0	0	0	0	0	0	0	0.999
+AR	KAT5	0	0	0	0	0	0	0	0	0	0	0.998
+AR	NCOR1	0	0	0	0	0	0	0	0	0	0	0.998

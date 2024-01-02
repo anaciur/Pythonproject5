@@ -1,0 +1,11 @@
+#node1	node2	node1_string_id	node2_string_id	neighborhood_on_chromosome	gene_fusion	phylogenetic_cooccurrence	homology	coexpression	experimentally_determined_interaction	database_annotated	automated_textmining	combined_score
+CDH2	CTNNB1	0	0	0	0	0	0	0	0	0	0	0.999
+CDH2	CTNND1	0	0	0	0	0	0	0	0	0	0	0.999
+CDH2	LRP5	0	0	0	0	0	0	0	0	0	0	0.999
+CDH2	PTPN1	0	0	0	0	0	0	0	0	0	0	0.998
+CDH2	GJA1	0	0	0	0	0	0	0	0	0	0	0.998
+CDH2	GRIA2	0	0	0	0	0	0	0	0	0	0	0.998
+CDH2	JUP	0	0	0	0	0	0	0	0	0	0	0.997
+CDH2	FGFR1	0	0	0	0	0	0	0	0	0	0	0.994
+CDH2	AXIN1	0	0	0	0	0	0	0	0	0	0	0.993
+CDH2	CTNND2	0	0	0	0	0	0	0	0	0	0	0.992

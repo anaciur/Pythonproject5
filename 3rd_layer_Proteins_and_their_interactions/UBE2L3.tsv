@@ -1,0 +1,11 @@
+#node1	node2	node1_string_id	node2_string_id	neighborhood_on_chromosome	gene_fusion	phylogenetic_cooccurrence	homology	coexpression	experimentally_determined_interaction	database_annotated	automated_textmining	combined_score
+UBE2L3	ARIH1	0	0	0	0	0	0	0	0	0	0	0.999
+UBE2L3	PARK2	0	0	0	0	0	0	0	0	0	0	0.999
+UBE2L3	CBL	0	0	0	0	0	0	0	0	0	0	0.998
+UBE2L3	UBE3A	0	0	0	0	0	0	0	0	0	0	0.997
+UBE2L3	UBA1	0	0	0	0	0	0	0	0	0	0	0.991
+UBE2L3	ITCH	0	0	0	0	0	0	0	0	0	0	0.988
+UBE2L3	ARIH2	0	0	0	0	0	0	0	0	0	0	0.982
+UBE2L3	WWP1	0	0	0	0	0	0	0	0	0	0	0.972
+UBE2L3	RNF31	0	0	0	0	0	0	0	0	0	0	0.969
+UBE2L3	NEDD4	0	0	0	0	0	0	0	0	0	0	0.967

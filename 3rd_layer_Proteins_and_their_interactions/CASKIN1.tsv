@@ -1,0 +1,11 @@
+#node1	node2	node1_string_id	node2_string_id	neighborhood_on_chromosome	gene_fusion	phylogenetic_cooccurrence	homology	coexpression	experimentally_determined_interaction	database_annotated	automated_textmining	combined_score
+CASKIN1	CASK	0	0	0	0	0	0	0	0	0	0	0.97
+CASKIN1	NRXN1	0	0	0	0	0	0	0	0	0	0	0.859
+CASKIN1	GPR153	0	0	0	0	0	0	0	0	0	0	0.808
+CASKIN1	APBA1	0	0	0	0	0	0	0	0	0	0	0.758
+CASKIN1	CEP350	0	0	0	0	0	0	0	0	0	0	0.733
+CASKIN1	PPFIA1	0	0	0	0	0	0	0	0	0	0	0.691
+CASKIN1	PPFIA2	0	0	0	0	0	0	0	0	0	0	0.682
+CASKIN1	PPFIA3	0	0	0	0	0	0	0	0	0	0	0.656
+CASKIN1	KIF17	0	0	0	0	0	0	0	0	0	0	0.611
+CASKIN1	CAMK2A	0	0	0	0	0	0	0	0	0	0	0.6

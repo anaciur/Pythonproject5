@@ -1,0 +1,11 @@
+#node1	node2	node1_string_id	node2_string_id	neighborhood_on_chromosome	gene_fusion	phylogenetic_cooccurrence	homology	coexpression	experimentally_determined_interaction	database_annotated	automated_textmining	combined_score
+MAGI2	PTEN	0	0	0	0	0	0	0	0	0	0	0.998
+MAGI2	CTNNB1	0	0	0	0	0	0	0	0	0	0	0.998
+MAGI2	DDN	0	0	0	0	0	0	0	0	0	0	0.977
+MAGI2	NPHS1	0	0	0	0	0	0	0	0	0	0	0.96
+MAGI2	GRASP	0	0	0	0	0	0	0	0	0	0	0.94
+MAGI2	RAPGEF2	0	0	0	0	0	0	0	0	0	0	0.924
+MAGI2	CACNG2	0	0	0	0	0	0	0	0	0	0	0.894
+MAGI2	DAG1	0	0	0	0	0	0	0	0	0	0	0.865
+MAGI2	DLL1	0	0	0	0	0	0	0	0	0	0	0.837
+MAGI2	MAGI1	0	0	0	0	0	0	0	0	0	0	0.832

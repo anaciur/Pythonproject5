@@ -1,0 +1,11 @@
+#node1	node2	node1_string_id	node2_string_id	neighborhood_on_chromosome	gene_fusion	phylogenetic_cooccurrence	homology	coexpression	experimentally_determined_interaction	database_annotated	automated_textmining	combined_score
+PAK2	CDC42	0	0	0	0	0	0	0	0	0	0	0.999
+PAK2	ARHGEF7	0	0	0	0	0	0	0	0	0	0	0.999
+PAK2	RAC1	0	0	0	0	0	0	0	0	0	0	0.995
+PAK2	NCK1	0	0	0	0	0	0	0	0	0	0	0.993
+PAK2	ARHGEF6	0	0	0	0	0	0	0	0	0	0	0.986
+PAK2	RAC2	0	0	0	0	0	0	0	0	0	0	0.981
+PAK2	NCK2	0	0	0	0	0	0	0	0	0	0	0.972
+PAK2	CASP3	0	0	0	0	0	0	0	0	0	0	0.97
+PAK2	RAF1	0	0	0	0	0	0	0	0	0	0	0.965
+PAK2	SRC	0	0	0	0	0	0	0	0	0	0	0.96

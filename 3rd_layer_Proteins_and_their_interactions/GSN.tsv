@@ -1,0 +1,11 @@
+#node1	node2	node1_string_id	node2_string_id	neighborhood_on_chromosome	gene_fusion	phylogenetic_cooccurrence	homology	coexpression	experimentally_determined_interaction	database_annotated	automated_textmining	combined_score
+GSN	ACTA1	0	0	0	0	0	0	0	0	0	0	0.998
+GSN	ACTG1	0	0	0	0	0	0	0	0	0	0	0.981
+GSN	WASL	0	0	0	0	0	0	0	0	0	0	0.972
+GSN	CASP3	0	0	0	0	0	0	0	0	0	0	0.969
+GSN	SRC	0	0	0	0	0	0	0	0	0	0	0.965
+GSN	PIK3CA	0	0	0	0	0	0	0	0	0	0	0.961
+GSN	FN1	0	0	0	0	0	0	0	0	0	0	0.942
+GSN	CYCS	0	0	0	0	0	0	0	0	0	0	0.933
+GSN	AR	0	0	0	0	0	0	0	0	0	0	0.912
+GSN	PIP5K1B	0	0	0	0	0	0	0	0	0	0	0.909

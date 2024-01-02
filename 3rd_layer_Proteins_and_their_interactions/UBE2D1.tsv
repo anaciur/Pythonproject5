@@ -1,0 +1,11 @@
+#node1	node2	node1_string_id	node2_string_id	neighborhood_on_chromosome	gene_fusion	phylogenetic_cooccurrence	homology	coexpression	experimentally_determined_interaction	database_annotated	automated_textmining	combined_score
+UBE2D1	RBX1	0	0	0	0	0	0	0	0	0	0	0.999
+UBE2D1	STUB1	0	0	0	0	0	0	0	0	0	0	0.999
+UBE2D1	UBA1	0	0	0	0	0	0	0	0	0	0	0.999
+UBE2D1	MDM2	0	0	0	0	0	0	0	0	0	0	0.999
+UBE2D1	ANAPC11	0	0	0	0	0	0	0	0	0	0	0.997
+UBE2D1	RNF4	0	0	0	0	0	0	0	0	0	0	0.995
+UBE2D1	TRIM25	0	0	0	0	0	0	0	0	0	0	0.994
+UBE2D1	UBC	0	0	0	0	0	0	0	0	0	0	0.993
+UBE2D1	CBL	0	0	0	0	0	0	0	0	0	0	0.991
+UBE2D1	BIRC2	0	0	0	0	0	0	0	0	0	0	0.991

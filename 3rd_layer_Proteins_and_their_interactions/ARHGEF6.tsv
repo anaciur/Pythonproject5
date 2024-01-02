@@ -1,0 +1,11 @@
+#node1	node2	node1_string_id	node2_string_id	neighborhood_on_chromosome	gene_fusion	phylogenetic_cooccurrence	homology	coexpression	experimentally_determined_interaction	database_annotated	automated_textmining	combined_score
+ARHGEF6	GIT2	0	0	0	0	0	0	0	0	0	0	0.998
+ARHGEF6	GIT1	0	0	0	0	0	0	0	0	0	0	0.998
+ARHGEF6	CDC42	0	0	0	0	0	0	0	0	0	0	0.998
+ARHGEF6	PARVB	0	0	0	0	0	0	0	0	0	0	0.998
+ARHGEF6	PAK1	0	0	0	0	0	0	0	0	0	0	0.989
+ARHGEF6	PAK3	0	0	0	0	0	0	0	0	0	0	0.987
+ARHGEF6	PAK2	0	0	0	0	0	0	0	0	0	0	0.986
+ARHGEF6	ARHGEF7	0	0	0	0	0	0	0	0	0	0	0.979
+ARHGEF6	PXN	0	0	0	0	0	0	0	0	0	0	0.979
+ARHGEF6	ILK	0	0	0	0	0	0	0	0	0	0	0.977

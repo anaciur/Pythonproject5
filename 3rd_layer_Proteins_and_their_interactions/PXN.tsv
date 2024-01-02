@@ -1,0 +1,11 @@
+#node1	node2	node1_string_id	node2_string_id	neighborhood_on_chromosome	gene_fusion	phylogenetic_cooccurrence	homology	coexpression	experimentally_determined_interaction	database_annotated	automated_textmining	combined_score
+PXN	ARHGEF7	0	0	0	0	0	0	0	0	0	0	0.999
+PXN	PTK2B	0	0	0	0	0	0	0	0	0	0	0.999
+PXN	VCL	0	0	0	0	0	0	0	0	0	0	0.999
+PXN	BCAR1	0	0	0	0	0	0	0	0	0	0	0.999
+PXN	CRKL	0	0	0	0	0	0	0	0	0	0	0.999
+PXN	GIT1	0	0	0	0	0	0	0	0	0	0	0.999
+PXN	ILK	0	0	0	0	0	0	0	0	0	0	0.999
+PXN	ITGA4	0	0	0	0	0	0	0	0	0	0	0.999
+PXN	PTK2	0	0	0	0	0	0	0	0	0	0	0.999
+PXN	SRC	0	0	0	0	0	0	0	0	0	0	0.999

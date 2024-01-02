@@ -1,0 +1,11 @@
+#node1	node2	node1_string_id	node2_string_id	neighborhood_on_chromosome	gene_fusion	phylogenetic_cooccurrence	homology	coexpression	experimentally_determined_interaction	database_annotated	automated_textmining	combined_score
+IRS2	GRB2	0	0	0	0	0	0	0	0	0	0	0.999
+IRS2	PIK3R1	0	0	0	0	0	0	0	0	0	0	0.999
+IRS2	IGF1R	0	0	0	0	0	0	0	0	0	0	0.998
+IRS2	PIK3CA	0	0	0	0	0	0	0	0	0	0	0.988
+IRS2	IGF1	0	0	0	0	0	0	0	0	0	0	0.986
+IRS2	INS	0	0	0	0	0	0	0	0	0	0	0.983
+IRS2	INSR	0	0	0	0	0	0	0	0	0	0	0.982
+IRS2	JAK2	0	0	0	0	0	0	0	0	0	0	0.98
+IRS2	IL4R	0	0	0	0	0	0	0	0	0	0	0.976
+IRS2	GRB10	0	0	0	0	0	0	0	0	0	0	0.973

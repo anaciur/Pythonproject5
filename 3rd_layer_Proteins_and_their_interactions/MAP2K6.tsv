@@ -1,0 +1,11 @@
+#node1	node2	node1_string_id	node2_string_id	neighborhood_on_chromosome	gene_fusion	phylogenetic_cooccurrence	homology	coexpression	experimentally_determined_interaction	database_annotated	automated_textmining	combined_score
+MAP2K6	MAPK14	0	0	0	0	0	0	0	0	0	0	0.995
+MAP2K6	MAP3K7	0	0	0	0	0	0	0	0	0	0	0.993
+MAP2K6	MAP3K4	0	0	0	0	0	0	0	0	0	0	0.989
+MAP2K6	MAP3K5	0	0	0	0	0	0	0	0	0	0	0.984
+MAP2K6	TRAF6	0	0	0	0	0	0	0	0	0	0	0.977
+MAP2K6	TAOK2	0	0	0	0	0	0	0	0	0	0	0.976
+MAP2K6	MAPK12	0	0	0	0	0	0	0	0	0	0	0.976
+MAP2K6	MAP2K3	0	0	0	0	0	0	0	0	0	0	0.974
+MAP2K6	GADD45A	0	0	0	0	0	0	0	0	0	0	0.97
+MAP2K6	MAPK13	0	0	0	0	0	0	0	0	0	0	0.964

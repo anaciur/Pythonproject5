@@ -1,0 +1,11 @@
+#node1	node2	node1_string_id	node2_string_id	neighborhood_on_chromosome	gene_fusion	phylogenetic_cooccurrence	homology	coexpression	experimentally_determined_interaction	database_annotated	automated_textmining	combined_score
+ANAPC11	CDC23	0	0	0	0	0	0	0	0	0	0	0.999
+ANAPC11	ANAPC2	0	0	0	0	0	0	0	0	0	0	0.999
+ANAPC11	UBE2C	0	0	0	0	0	0	0	0	0	0	0.999
+ANAPC11	ANAPC4	0	0	0	0	0	0	0	0	0	0	0.999
+ANAPC11	CDC16	0	0	0	0	0	0	0	0	0	0	0.999
+ANAPC11	ANAPC10	0	0	0	0	0	0	0	0	0	0	0.999
+ANAPC11	CDC27	0	0	0	0	0	0	0	0	0	0	0.999
+ANAPC11	UBE2S	0	0	0	0	0	0	0	0	0	0	0.999
+ANAPC11	UBE2D2	0	0	0	0	0	0	0	0	0	0	0.999
+ANAPC11	FZR1	0	0	0	0	0	0	0	0	0	0	0.998

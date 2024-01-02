@@ -1,0 +1,11 @@
+#node1	node2	node1_string_id	node2_string_id	neighborhood_on_chromosome	gene_fusion	phylogenetic_cooccurrence	homology	coexpression	experimentally_determined_interaction	database_annotated	automated_textmining	combined_score
+SCRIB	ARHGEF7	0	0	0	0	0	0	0	0	0	0	0.997
+SCRIB	VANGL2	0	0	0	0	0	0	0	0	0	0	0.985
+SCRIB	LLGL2	0	0	0	0	0	0	0	0	0	0	0.975
+SCRIB	LLGL1	0	0	0	0	0	0	0	0	0	0	0.959
+SCRIB	UBE3A	0	0	0	0	0	0	0	0	0	0	0.917
+SCRIB	DLG1	0	0	0	0	0	0	0	0	0	0	0.913
+SCRIB	CDC42	0	0	0	0	0	0	0	0	0	0	0.905
+SCRIB	DLG2	0	0	0	0	0	0	0	0	0	0	0.897
+SCRIB	DLG3	0	0	0	0	0	0	0	0	0	0	0.896
+SCRIB	DLG4	0	0	0	0	0	0	0	0	0	0	0.892

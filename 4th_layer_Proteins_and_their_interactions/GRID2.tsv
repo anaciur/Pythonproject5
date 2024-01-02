@@ -1,0 +1,11 @@
+#node1	node2	node1_string_id	node2_string_id	neighborhood_on_chromosome	gene_fusion	phylogenetic_cooccurrence	homology	coexpression	experimentally_determined_interaction	database_annotated	automated_textmining	combined_score
+GRID2	CBLN1	0	0	0	0	0	0	0	0	0	0	0.995
+GRID2	GRID2IP	0	0	0	0	0	0	0	0	0	0	0.986
+GRID2	NRXN2	0	0	0	0	0	0	0	0	0	0	0.971
+GRID2	BECN1	0	0	0	0	0	0	0	0	0	0	0.895
+GRID2	SHANK2	0	0	0	0	0	0	0	0	0	0	0.846
+GRID2	DLG2	0	0	0	0	0	0	0	0	0	0	0.816
+GRID2	NRXN1	0	0	0	0	0	0	0	0	0	0	0.809
+GRID2	NRXN3	0	0	0	0	0	0	0	0	0	0	0.806
+GRID2	CACNG2	0	0	0	0	0	0	0	0	0	0	0.8
+GRID2	CBLN3	0	0	0	0	0	0	0	0	0	0	0.8

@@ -1,0 +1,11 @@
+#node1	node2	node1_string_id	node2_string_id	neighborhood_on_chromosome	gene_fusion	phylogenetic_cooccurrence	homology	coexpression	experimentally_determined_interaction	database_annotated	automated_textmining	combined_score
+KRAS	PIK3CA	0	0	0	0	0	0	0	0	0	0	0.999
+KRAS	RAF1	0	0	0	0	0	0	0	0	0	0	0.999
+KRAS	BRAF	0	0	0	0	0	0	0	0	0	0	0.999
+KRAS	SOS1	0	0	0	0	0	0	0	0	0	0	0.998
+KRAS	EGFR	0	0	0	0	0	0	0	0	0	0	0.998
+KRAS	RALGDS	0	0	0	0	0	0	0	0	0	0	0.997
+KRAS	NF1	0	0	0	0	0	0	0	0	0	0	0.994
+KRAS	ERBB2	0	0	0	0	0	0	0	0	0	0	0.992
+KRAS	SHOC2	0	0	0	0	0	0	0	0	0	0	0.99
+KRAS	GRB2	0	0	0	0	0	0	0	0	0	0	0.99

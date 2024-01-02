@@ -1,0 +1,11 @@
+#node1	node2	node1_string_id	node2_string_id	neighborhood_on_chromosome	gene_fusion	phylogenetic_cooccurrence	homology	coexpression	experimentally_determined_interaction	database_annotated	automated_textmining	combined_score
+MAPK14	TAB1	0	0	0	0	0	0	0	0	0	0	0.999
+MAPK14	MAPKAPK2	0	0	0	0	0	0	0	0	0	0	0.999
+MAPK14	DUSP1	0	0	0	0	0	0	0	0	0	0	0.998
+MAPK14	DUSP10	0	0	0	0	0	0	0	0	0	0	0.998
+MAPK14	MEF2A	0	0	0	0	0	0	0	0	0	0	0.998
+MAPK14	ATF2	0	0	0	0	0	0	0	0	0	0	0.997
+MAPK14	MAP2K3	0	0	0	0	0	0	0	0	0	0	0.995
+MAPK14	MAPKAPK3	0	0	0	0	0	0	0	0	0	0	0.995
+MAPK14	TP53	0	0	0	0	0	0	0	0	0	0	0.995
+MAPK14	MAP2K6	0	0	0	0	0	0	0	0	0	0	0.995

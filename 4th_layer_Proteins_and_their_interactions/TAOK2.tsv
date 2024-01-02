@@ -1,0 +1,11 @@
+#node1	node2	node1_string_id	node2_string_id	neighborhood_on_chromosome	gene_fusion	phylogenetic_cooccurrence	homology	coexpression	experimentally_determined_interaction	database_annotated	automated_textmining	combined_score
+TAOK2	MAP2K3	0	0	0	0	0	0	0	0	0	0	0.978
+TAOK2	MAP2K6	0	0	0	0	0	0	0	0	0	0	0.976
+TAOK2	ATM	0	0	0	0	0	0	0	0	0	0	0.909
+TAOK2	TAOK1	0	0	0	0	0	0	0	0	0	0	0.902
+TAOK2	TAOK3	0	0	0	0	0	0	0	0	0	0	0.902
+TAOK2	NRP1	0	0	0	0	0	0	0	0	0	0	0.737
+TAOK2	SAV1	0	0	0	0	0	0	0	0	0	0	0.732
+TAOK2	STRN4	0	0	0	0	0	0	0	0	0	0	0.705
+TAOK2	KCTD13	0	0	0	0	0	0	0	0	0	0	0.689
+TAOK2	ASPHD1	0	0	0	0	0	0	0	0	0	0	0.674

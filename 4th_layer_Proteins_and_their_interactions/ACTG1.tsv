@@ -1,0 +1,11 @@
+#node1	node2	node1_string_id	node2_string_id	neighborhood_on_chromosome	gene_fusion	phylogenetic_cooccurrence	homology	coexpression	experimentally_determined_interaction	database_annotated	automated_textmining	combined_score
+ACTG1	ACTB	0	0	0	0	0	0	0	0	0	0	0.998
+ACTG1	CFL1	0	0	0	0	0	0	0	0	0	0	0.991
+ACTG1	DMD	0	0	0	0	0	0	0	0	0	0	0.986
+ACTG1	TMSB4X	0	0	0	0	0	0	0	0	0	0	0.982
+ACTG1	CFL2	0	0	0	0	0	0	0	0	0	0	0.981
+ACTG1	GSN	0	0	0	0	0	0	0	0	0	0	0.981
+ACTG1	WASL	0	0	0	0	0	0	0	0	0	0	0.971
+ACTG1	PFN1	0	0	0	0	0	0	0	0	0	0	0.958
+ACTG1	VCL	0	0	0	0	0	0	0	0	0	0	0.956
+ACTG1	CASP3	0	0	0	0	0	0	0	0	0	0	0.948
