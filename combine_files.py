@@ -10,6 +10,10 @@ import os
 
 def search_files(directory, new_file_path):
     with open(new_file_path, 'w') as new_file:
+        new_file.write("#node1	node2	node1_string_id	node2_string_id	neighborhood_on_chromosome	gene_fusion	"
+                       "phylogenetic_cooccurrence	homology	coexpression	"
+                       "experimentally_determined_interaction	database_annotated	automated_textmining	"
+                       "combined_score\n")
         # Iterate over all files in the specified directory
         for file in os.listdir(directory):
             # Construct the full file path
@@ -31,7 +35,13 @@ search_files('C:\\Users\\User\PycharmProjects\pythonProject5\scaffolds_layer_Pro
              'scaffolds#.tsv')  # Searching for .txt files
 search_files('C:\\Users\\User\PycharmProjects\pythonProject5\\2nd_layer_Proteins_and_their_interactions',
              '2nd_layer#.tsv')  # Searching for .txt files
-
+search_files('C:\\Users\\User\PycharmProjects\pythonProject5\\3rd_layer_Proteins_and_their_interactions',
+             '3rd_layer#.tsv')
+search_files('C:\\Users\\User\PycharmProjects\pythonProject5\\4th_layer_Proteins_and_their_interactions',
+             '4th_layer#.tsv')
+search_files('C:\\Users\\User\PycharmProjects\pythonProject5\\5th_layer_Proteins_and_their_interactions',
+             '5th_layer#.tsv')
+'''
 add_proteins_to_layer('QDPR.tsv', '6th_layer.tsv')
 add_proteins_to_layer('ASPH.tsv', '6th_layer.tsv')
 
@@ -64,7 +74,7 @@ add_proteins_to_layer('CREB1.tsv', '6th_layer.tsv')
 add_proteins_to_layer('CAV1.tsv', '6th_layer.tsv')
 add_proteins_to_layer('HSP90AA1.tsv', '6th_layer.tsv')
 add_proteins_to_layer('HSP90AB1.tsv', '6th_layer.tsv')
-add_proteins_to_layer('AKT1.tsv', '6th_layer.tsv')
+#add_proteins_to_layer('AKT1.tsv', '6th_layer.tsv')
 add_proteins_to_layer('NOSIP.tsv', '6th_layer.tsv')
 add_proteins_to_layer('PRKAB1.tsv', '6th_layer.tsv')
 add_proteins_to_layer('PRKAB2.tsv', '6th_layer.tsv')
@@ -72,7 +82,7 @@ add_proteins_to_layer('PRKAG1.tsv', '6th_layer.tsv')
 add_proteins_to_layer('PRKAG2.tsv', '6th_layer.tsv')
 add_proteins_to_layer('PRKAA2.tsv', '6th_layer.tsv')
 add_proteins_to_layer('CNTNAP2.tsv', '6th_layer.tsv')
-add_proteins_to_layer('ADAM23.tsv', '6th_layer.tsv')
+#add_proteins_to_layer('ADAM23.tsv', '6th_layer.tsv')
 add_proteins_to_layer('ADAM28.tsv', '6th_layer.tsv')
 add_proteins_to_layer('LGI1.tsv', '6th_layer.tsv')
 add_proteins_to_layer('LGI2.tsv', '6th_layer.tsv')
@@ -82,3 +92,4 @@ add_proteins_to_layer('LGI4.tsv', '6th_layer.tsv')
 add_proteins_to_layer('TH.tsv', '7th_layer.tsv')
 
 add_proteins_to_layer('SNCA.tsv', '8th_layer.tsv')
+'''

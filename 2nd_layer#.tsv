@@ -1,3 +1,4 @@
+#node1	node2	node1_string_id	node2_string_id	neighborhood_on_chromosome	gene_fusion	phylogenetic_cooccurrence	homology	coexpression	experimentally_determined_interaction	database_annotated	automated_textmining	combined_score
 ARHGEF6	CBL	9606.ENSP00000250617	9606.ENSP00000264033	0	0	0	0	0.054	0.295	0	0.491	0.631
 ARHGEF6	SCRIB	9606.ENSP00000250617	9606.ENSP00000349486	0	0	0	0	0.058	0.421	0	0.607	0.767
 ARHGEF6	CDC42	9606.ENSP00000250617	9606.ENSP00000497733	0	0	0	0	0.076	0.634	0.400	0.937	0.985
