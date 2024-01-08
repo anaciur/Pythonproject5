@@ -2,7 +2,6 @@ import csv
 from pyvis.network import Network
 
 import delete_after_filename
-from Nested_list_of_layers import NestedList
 from Visualize_Protein_Network import NetworkVisualizer, generate_random_color, rgb_to_hex
 from File_processor import InteractionProcessor
 
@@ -13,7 +12,6 @@ graph1 = Network(notebook=True, cdn_resources="remote", height="600px", width="1
 total_proteins = []
 total_proteins_nested_list = []
 total_proteins_nested_list_selective = []
-n_l = NestedList([])
 
 
 def is_in_list_of_lists(input_list, pr):
@@ -105,7 +103,7 @@ def extend_graph(file_path, s, Graph):
                            title=protein.interactions[interacting_protein])
 
 
-def extend_graph_selective(file_path, s, Graph, nb_of_min_int, color=None):
+def extend_graph_selective(file_path, s, Graph, nb_of_min_int):
     # file_path = 'scaffolds.tsv'
     interaction_processor = InteractionProcessor(file_path)
     interaction_processor.process_interactions()
@@ -120,20 +118,17 @@ def extend_graph_selective(file_path, s, Graph, nb_of_min_int, color=None):
     if Graph == graph1:
         create_nested_list_of_layers(file_path)
         create_nested_list_of_layers_selective(file_path, nb_of_min_int)
-        n_l.create_nested_list_of_layers_selective1(file_path, nb_of_min_int)
     # this is a trial
-    if color == None:
-        random_color = generate_random_color()
-        hex_color = rgb_to_hex(*random_color)
-    else:
-        hex_color = color
+
+    random_color = generate_random_color()
+    hex_color = rgb_to_hex(*random_color)
     # Add nodes to the network
     for protein in total_proteins:
         Graph.add_node(protein.name, label=protein.name, shape="dot", size=s, color=hex_color)
     # Add edges to the network
 
     # for protein in total_proteins:
-    for lst in total_proteins_nested_list:
+    for lst in total_proteins_nested_list_selective:
         for protein in lst:
             # if len(protein.interactions) >= nb_of_min_int:
             # if is_in_list_of_lists(total_proteins_nested_list_selective, protein):
@@ -145,18 +140,14 @@ def extend_graph_selective(file_path, s, Graph, nb_of_min_int, color=None):
                                        title=protein.interactions[interacting_protein])
 
 
-# add the scaffolds - layer 1
+# add the scaffolds
 extend_graph_selective('scaffolds.tsv', 60, graph1, 0)
 
-# add the interactions of all scaffolds with other proteins as layer 2
-#extend_graph_selective('scaffolds#.tsv', 60, graph1, 0)
+# add the scaffolds' interactions in nodes
+extend_graph_selective('scaffolds#.tsv', 50, graph1, 1)
 
-# add the interactions between scaffolds and layer2 proteins cumulative
-extend_graph_selective('scaffolds_2_layer_combined_interactions_within.tsv', 60, graph1, 0, 'black')
-
-# add the interactions of the 2nd layer as the 3rd layer
-#extend_graph_selective('2nd_layer#.tsv', 40, graph1, 1)
-'''
+# add the interactions of the 2nd layer - i.e the 3rd layer
+extend_graph_selective('2nd_layer#.tsv', 40, graph1, 1)
 # extend_graph('scaffolds_2nd_3rd_layer_interactions_all#.tsv', 10, graph1)
 
 # add the interactions of the the third ayer-i.e the 4 th layer
@@ -167,36 +158,24 @@ extend_graph_selective('4th_layer#.tsv', 20, graph1, 2)
 
 # add the interactions of the 5th layer - i.e the 6th layer
 extend_graph_selective('5th_layer#.tsv', 10, graph1, 2)
-
-# add the interactions of the 6th layer - i.e the 7th layer
-extend_graph_selective('6th_layer#.tsv', 10, graph1, 2)
 '''
+extend_graph('scaffolds.tsv', 30, graph)
+extend_graph('2nd_layer.tsv', 27, graph)
+extend_graph('3rd_layer.tsv', 25, graph)
+extend_graph('4th_layer.tsv', 20, graph)
 
-
+extend_graph('combined_file_all.tsv', 15, graph)
+extend_graph('6th_layer.tsv', 12, graph)
+extend_graph('7th_layer.tsv', 10, graph)
+extend_graph('8th_layer.tsv', 9, graph)'''
 for lst in total_proteins_nested_list:
     print(f"layer {total_proteins_nested_list.index(lst)}")
     print(','.join(pr.name for pr in lst))
     print(f"{len(lst)}")
-
-'''
 for lst in total_proteins_nested_list_selective:
     print(f"layer {total_proteins_nested_list_selective.index(lst)}")
     print(','.join(pr.name for pr in lst))
     print(f"{len(lst)}")
-'''
-for lst in total_proteins_nested_list_selective:
-    lst_str = ["'{}'".format(pr.name) for pr in lst]
-    joined_str = ','.join(lst_str)
-    print(f"layer {total_proteins_nested_list_selective.index(lst)}")
-    print(joined_str)
-    print(len(lst_str))
-
-for lst in n_l.nested_list:
-    lst_str = ["'{}'".format(pr) for pr in lst]
-    joined_str = ','.join(lst_str)
-    print(f"layer {n_l.nested_list.index(lst)}")
-    print(joined_str)
-    print(len(lst_str))
 # Set the physics configuration to enable node dragging
 graph.set_options(
     """

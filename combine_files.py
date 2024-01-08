@@ -35,12 +35,16 @@ search_files('C:\\Users\\User\PycharmProjects\pythonProject5\scaffolds_layer_Pro
              'scaffolds#.tsv')  # Searching for .txt files
 search_files('C:\\Users\\User\PycharmProjects\pythonProject5\\2nd_layer_Proteins_and_their_interactions',
              '2nd_layer#.tsv')  # Searching for .txt files
+'''
 search_files('C:\\Users\\User\PycharmProjects\pythonProject5\\3rd_layer_Proteins_and_their_interactions',
              '3rd_layer#.tsv')
 search_files('C:\\Users\\User\PycharmProjects\pythonProject5\\4th_layer_Proteins_and_their_interactions',
              '4th_layer#.tsv')
 search_files('C:\\Users\\User\PycharmProjects\pythonProject5\\5th_layer_Proteins_and_their_interactions',
              '5th_layer#.tsv')
+search_files('C:\\Users\\User\PycharmProjects\pythonProject5\\6th_layer_Proteins_and_their_interactions',
+             '6th_layer#.tsv')'''
+
 '''
 add_proteins_to_layer('QDPR.tsv', '6th_layer.tsv')
 add_proteins_to_layer('ASPH.tsv', '6th_layer.tsv')

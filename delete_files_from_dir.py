@@ -1,7 +1,10 @@
 import os
 
+directory_path2 = 'C:\\Users\\User\PycharmProjects\pythonProject5\\2nd_layer_Proteins_and_their_interactions'  # Replace with the actual path to your directory
 directory_path3 = 'C:\\Users\\User\PycharmProjects\pythonProject5\\3rd_layer_Proteins_and_their_interactions'  # Replace with the actual path to your directory
 directory_path4 = 'C:\\Users\\User\PycharmProjects\pythonProject5\\4th_layer_Proteins_and_their_interactions'  # Replace with the actual path to your directory
+directory_path5 = 'C:\\Users\\User\PycharmProjects\pythonProject5\\5th_layer_Proteins_and_their_interactions'  # Replace with the actual path to your directory
+directory_path6 = 'C:\\Users\\User\PycharmProjects\pythonProject5\\6th_layer_Proteins_and_their_interactions'  # Replace with the actual path to your directory
 
 
 def delete(directory_path):
@@ -22,6 +25,8 @@ def delete(directory_path):
     except Exception as e:
         print(f"An error occurred: {e}")
 
-
+delete(directory_path2)
 delete(directory_path3)
 delete(directory_path4)
+delete(directory_path5)
+delete(directory_path6)

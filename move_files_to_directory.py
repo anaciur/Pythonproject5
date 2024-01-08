@@ -1,6 +1,16 @@
 import os
 import shutil
 
+
+def add_tsv_extension(original_list):
+    return [item + '.tsv' for item in original_list]
+
+
+list2 = ['ADAM10', 'CASK', 'MAPK12', 'LLGL1', 'GRIN2A', 'UBE3A', 'GRIN2B', 'PTEN', 'GRIA1', 'ADAM22', 'TJAP1', 'KCNA4',
+         'NBEA', 'LRFN2', 'SYNGAP1', 'CACNG2', 'NLGN2', 'ERBB4', 'GRIN1', 'NLGN1', 'GRIK2', 'GRM1', 'GRM5', 'NLGN4X',
+         'ARHGEF7', 'CTTN', 'NLGN3', 'NRXN1']
+files_to_move_to2layer = add_tsv_extension(list2)
+
 # 'CDC42.tsv',, 'WHRN.tsv', 'NLGN4Y.tsv'
 files_to_move_to3layer = ['ARHGEF6.tsv', 'PAK2.tsv', 'PAK3.tsv', 'PAK1.tsv', 'GIT2.tsv', 'GIT1.tsv',
                           'CBL.tsv', 'SCRIB.tsv', 'SRC.tsv', 'CACNB4.tsv', 'CACNG1.tsv', 'GRIA4.tsv', 'GRIA2.tsv',
@@ -40,6 +50,11 @@ files_to_move_to5layer = ['ABL1.tsv', 'ADRB2.tsv', 'ARRB2.tsv', 'UBE2S.tsv', 'AP
                           'KDR.tsv', 'VAV1.tsv', 'RHOA.tsv', 'MAP2K4.tsv', 'DEPTOR.tsv', 'MLST8.tsv', 'TIAM1.tsv',
                           'UBE2D3.tsv', 'GABARAPL2.tsv', 'GABARAP.tsv', 'UBE2N.tsv']
 
+original_list = ['NRAS', 'CDH5', 'AKT1S1', 'PRR5', 'MAPKAP1', 'TTI1', 'ATG4B', 'ATG3', 'ATG7', 'ATG4A', 'BECN1', 'ATG5',
+                 'ATG12', 'DNAJB1', 'BAG3', 'BAG1', 'BAG2', 'INS', 'PTPN11', 'RAP1A', 'LRPAP1', 'ACTN1', 'UBE2V2',
+                 'UBE2V1']
+files_to_move_to6layer = [item + '.tsv' for item in original_list]
+
 
 def move_files_with_extension(source_dir, destination_dir, extension, files_to_move):
     # Get a list of files in the source directory with the specified extension
@@ -58,13 +73,21 @@ def move_files_with_extension(source_dir, destination_dir, extension, files_to_m
 
 
 # Example usage:
+file_extension = '.tsv'  # Replace with the desired file extension
 source_directory = 'C:\\Users\\User\PycharmProjects\pythonProject5'  # Replace with the actual source directory path
-destination_directory_3layer = 'C:\\Users\\User\PycharmProjects\pythonProject5\\3rd_layer_Proteins_and_their_interactions'  # Replace with the actual destination directory path
+
+destination_directory_2layer = 'C:\\Users\\User\PycharmProjects\pythonProject5\\2nd_layer_Proteins_and_their_interactions'  # Replace with the actual destination directory path
+move_files_with_extension(source_directory, destination_directory_2layer, file_extension, files_to_move_to2layer)
+
+'''destination_directory_3layer = 'C:\\Users\\User\PycharmProjects\pythonProject5\\3rd_layer_Proteins_and_their_interactions'  # Replace with the actual destination directory path
 destination_directory_4layer = 'C:\\Users\\User\PycharmProjects\pythonProject5\\4th_layer_Proteins_and_their_interactions'  # Replace with the actual destination directory path
 destination_directory_5layer = 'C:\\Users\\User\PycharmProjects\pythonProject5\\5th_layer_Proteins_and_their_interactions'  # Replace with the actual destination directory path
+destination_directory_6layer = 'C:\\Users\\User\PycharmProjects\pythonProject5\\6th_layer_Proteins_and_their_interactions'  # Replace with the actual destination directory path
 
-file_extension = '.tsv'  # Replace with the desired file extension
+
 
 move_files_with_extension(source_directory, destination_directory_3layer, file_extension, files_to_move_to3layer)
 move_files_with_extension(source_directory, destination_directory_4layer, file_extension, files_to_move_to4layer)
 move_files_with_extension(source_directory, destination_directory_5layer, file_extension, files_to_move_to5layer)
+move_files_with_extension(source_directory, destination_directory_6layer, file_extension, files_to_move_to6layer)
+'''
