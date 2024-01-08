@@ -1,0 +1,11 @@
+#node1	node2	node1_string_id	node2_string_id	neighborhood_on_chromosome	gene_fusion	phylogenetic_cooccurrence	homology	coexpression	experimentally_determined_interaction	database_annotated	automated_textmining	combined_score
+SYNGAP1	DLG4	0	0	0	0	0	0	0	0	0	0	0.995
+SYNGAP1	GRIN2B	0	0	0	0	0	0	0	0	0	0	0.982
+SYNGAP1	HRAS	0	0	0	0	0	0	0	0	0	0	0.958
+SYNGAP1	MPDZ	0	0	0	0	0	0	0	0	0	0	0.949
+SYNGAP1	LNX1	0	0	0	0	0	0	0	0	0	0	0.943
+SYNGAP1	GRIN1	0	0	0	0	0	0	0	0	0	0	0.917
+SYNGAP1	DLG3	0	0	0	0	0	0	0	0	0	0	0.912
+SYNGAP1	ULK1	0	0	0	0	0	0	0	0	0	0	0.883
+SYNGAP1	DLG2	0	0	0	0	0	0	0	0	0	0	0.873
+SYNGAP1	GRIN2A	0	0	0	0	0	0	0	0	0	0	0.867
