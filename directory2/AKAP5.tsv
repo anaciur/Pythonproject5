@@ -1,0 +1,11 @@
+#node1	node2	node1_string_id	node2_string_id	neighborhood_on_chromosome	gene_fusion	phylogenetic_cooccurrence	homology	coexpression	experimentally_determined_interaction	database_annotated	automated_textmining	combined_score
+AKAP5	DLG4	0	0	0	0	0	0	0	0	0	0	0.998
+AKAP5	DLG1	0	0	0	0	0	0	0	0	0	0	0.998
+AKAP5	PRKAR2B	0	0	0	0	0	0	0	0	0	0	0.998
+AKAP5	PRKCA	0	0	0	0	0	0	0	0	0	0	0.994
+AKAP5	ADCY5	0	0	0	0	0	0	0	0	0	0	0.991
+AKAP5	ADRB2	0	0	0	0	0	0	0	0	0	0	0.989
+AKAP5	CACNA1C	0	0	0	0	0	0	0	0	0	0	0.987
+AKAP5	IQGAP1	0	0	0	0	0	0	0	0	0	0	0.985
+AKAP5	TRPV1	0	0	0	0	0	0	0	0	0	0	0.984
+AKAP5	GRIA1	0	0	0	0	0	0	0	0	0	0	0.978

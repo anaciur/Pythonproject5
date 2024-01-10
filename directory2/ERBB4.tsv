@@ -1,0 +1,11 @@
+#node1	node2	node1_string_id	node2_string_id	neighborhood_on_chromosome	gene_fusion	phylogenetic_cooccurrence	homology	coexpression	experimentally_determined_interaction	database_annotated	automated_textmining	combined_score
+ERBB4	NRG1	0	0	0	0	0	0	0	0	0	0	0.999
+ERBB4	STAT5A	0	0	0	0	0	0	0	0	0	0	0.999
+ERBB4	DLG4	0	0	0	0	0	0	0	0	0	0	0.999
+ERBB4	HBEGF	0	0	0	0	0	0	0	0	0	0	0.999
+ERBB4	NRG2	0	0	0	0	0	0	0	0	0	0	0.999
+ERBB4	GRB2	0	0	0	0	0	0	0	0	0	0	0.999
+ERBB4	NRG3	0	0	0	0	0	0	0	0	0	0	0.999
+ERBB4	SHC1	0	0	0	0	0	0	0	0	0	0	0.999
+ERBB4	YAP1	0	0	0	0	0	0	0	0	0	0	0.998
+ERBB4	NRG4	0	0	0	0	0	0	0	0	0	0	0.998

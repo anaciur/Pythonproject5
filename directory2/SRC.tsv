@@ -1,0 +1,11 @@
+#node1	node2	node1_string_id	node2_string_id	neighborhood_on_chromosome	gene_fusion	phylogenetic_cooccurrence	homology	coexpression	experimentally_determined_interaction	database_annotated	automated_textmining	combined_score
+SRC	BCAR1	0	0	0	0	0	0	0	0	0	0	0.999
+SRC	ITGB3	0	0	0	0	0	0	0	0	0	0	0.999
+SRC	GNB2L1	0	0	0	0	0	0	0	0	0	0	0.999
+SRC	GJA1	0	0	0	0	0	0	0	0	0	0	0.999
+SRC	HSP90AA1	0	0	0	0	0	0	0	0	0	0	0.999
+SRC	AR	0	0	0	0	0	0	0	0	0	0	0.999
+SRC	GRIN2A	0	0	0	0	0	0	0	0	0	0	0.999
+SRC	PIK3R1	0	0	0	0	0	0	0	0	0	0	0.999
+SRC	CDH1	0	0	0	0	0	0	0	0	0	0	0.999
+SRC	KHDRBS1	0	0	0	0	0	0	0	0	0	0	0.999

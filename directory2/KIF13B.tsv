@@ -1,0 +1,11 @@
+#node1	node2	node1_string_id	node2_string_id	neighborhood_on_chromosome	gene_fusion	phylogenetic_cooccurrence	homology	coexpression	experimentally_determined_interaction	database_annotated	automated_textmining	combined_score
+KIF13B	ADAP1	0	0	0	0	0	0	0	0	0	0	0.999
+KIF13B	DLG1	0	0	0	0	0	0	0	0	0	0	0.99
+KIF13B	DLG4	0	0	0	0	0	0	0	0	0	0	0.964
+KIF13B	ARF6	0	0	0	0	0	0	0	0	0	0	0.948
+KIF13B	GUK1	0	0	0	0	0	0	0	0	0	0	0.833
+KIF13B	TRPV1	0	0	0	0	0	0	0	0	0	0	0.769
+KIF13B	KDR	0	0	0	0	0	0	0	0	0	0	0.731
+KIF13B	KIFAP3	0	0	0	0	0	0	0	0	0	0	0.699
+KIF13B	KIF23	0	0	0	0	0	0	0	0	0	0	0.692
+KIF13B	NPHP4	0	0	0	0	0	0	0	0	0	0	0.687

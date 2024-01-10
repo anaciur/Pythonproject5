@@ -1,0 +1,11 @@
+#node1	node2	node1_string_id	node2_string_id	neighborhood_on_chromosome	gene_fusion	phylogenetic_cooccurrence	homology	coexpression	experimentally_determined_interaction	database_annotated	automated_textmining	combined_score
+PTEN	SLC9A3R1	0	0	0	0	0	0	0	0	0	0	0.999
+PTEN	PIK3R1	0	0	0	0	0	0	0	0	0	0	0.999
+PTEN	TP53	0	0	0	0	0	0	0	0	0	0	0.999
+PTEN	NEDD4	0	0	0	0	0	0	0	0	0	0	0.999
+PTEN	MAGI2	0	0	0	0	0	0	0	0	0	0	0.998
+PTEN	WWP2	0	0	0	0	0	0	0	0	0	0	0.998
+PTEN	DLG1	0	0	0	0	0	0	0	0	0	0	0.998
+PTEN	PIK3CA	0	0	0	0	0	0	0	0	0	0	0.995
+PTEN	PTK2	0	0	0	0	0	0	0	0	0	0	0.995
+PTEN	CENPC	0	0	0	0	0	0	0	0	0	0	0.994

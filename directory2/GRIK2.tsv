@@ -1,0 +1,11 @@
+#node1	node2	node1_string_id	node2_string_id	neighborhood_on_chromosome	gene_fusion	phylogenetic_cooccurrence	homology	coexpression	experimentally_determined_interaction	database_annotated	automated_textmining	combined_score
+GRIK2	DLG4	0	0	0	0	0	0	0	0	0	0	0.999
+GRIK2	GRIK5	0	0	0	0	0	0	0	0	0	0	0.975
+GRIK2	NETO2	0	0	0	0	0	0	0	0	0	0	0.943
+GRIK2	DLG1	0	0	0	0	0	0	0	0	0	0	0.941
+GRIK2	KARS	0	0	0	0	0	0	0	0	0	0	0.928
+GRIK2	PICK1	0	0	0	0	0	0	0	0	0	0	0.917
+GRIK2	SLC12A5	0	0	0	0	0	0	0	0	0	0	0.913
+GRIK2	DLG3	0	0	0	0	0	0	0	0	0	0	0.913
+GRIK2	EPB41L1	0	0	0	0	0	0	0	0	0	0	0.912
+GRIK2	KIF17	0	0	0	0	0	0	0	0	0	0	0.888

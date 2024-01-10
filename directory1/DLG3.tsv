@@ -1,0 +1,11 @@
+#node1	node2	node1_string_id	node2_string_id	neighborhood_on_chromosome	gene_fusion	phylogenetic_cooccurrence	homology	coexpression	experimentally_determined_interaction	database_annotated	automated_textmining	combined_score
+DLG3	GRIN2B	0	0	0	0	0	0	0	0	0	0	0.998
+DLG3	GRIN2A	0	0	0	0	0	0	0	0	0	0	0.995
+DLG3	NBEA	0	0	0	0	0	0	0	0	0	0	0.991
+DLG3	GRIA1	0	0	0	0	0	0	0	0	0	0	0.976
+DLG3	GRIA2	0	0	0	0	0	0	0	0	0	0	0.961
+DLG3	GRIA4	0	0	0	0	0	0	0	0	0	0	0.953
+DLG3	SRC	0	0	0	0	0	0	0	0	0	0	0.949
+DLG3	GRIA3	0	0	0	0	0	0	0	0	0	0	0.946
+DLG3	GRIN1	0	0	0	0	0	0	0	0	0	0	0.945
+DLG3	HRAS	0	0	0	0	0	0	0	0	0	0	0.941

@@ -1,0 +1,11 @@
+#node1	node2	node1_string_id	node2_string_id	neighborhood_on_chromosome	gene_fusion	phylogenetic_cooccurrence	homology	coexpression	experimentally_determined_interaction	database_annotated	automated_textmining	combined_score
+SCN5A	ANK3	0	0	0	0	0	0	0	0	0	0	0.996
+SCN5A	CALM1	0	0	0	0	0	0	0	0	0	0	0.993
+SCN5A	CALM3	0	0	0	0	0	0	0	0	0	0	0.992
+SCN5A	DLG1	0	0	0	0	0	0	0	0	0	0	0.988
+SCN5A	DMD	0	0	0	0	0	0	0	0	0	0	0.987
+SCN5A	GJA1	0	0	0	0	0	0	0	0	0	0	0.985
+SCN5A	SNTA1	0	0	0	0	0	0	0	0	0	0	0.985
+SCN5A	PKP2	0	0	0	0	0	0	0	0	0	0	0.984
+SCN5A	SCN1B	0	0	0	0	0	0	0	0	0	0	0.973
+SCN5A	SCN4B	0	0	0	0	0	0	0	0	0	0	0.965

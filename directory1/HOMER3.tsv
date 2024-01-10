@@ -1,0 +1,11 @@
+#node1	node2	node1_string_id	node2_string_id	neighborhood_on_chromosome	gene_fusion	phylogenetic_cooccurrence	homology	coexpression	experimentally_determined_interaction	database_annotated	automated_textmining	combined_score
+HOMER3	HOMER1	0	0	0	0	0	0	0	0	0	0	0.977
+HOMER3	GRM1	0	0	0	0	0	0	0	0	0	0	0.973
+HOMER3	HOMER2	0	0	0	0	0	0	0	0	0	0	0.942
+HOMER3	SHANK1	0	0	0	0	0	0	0	0	0	0	0.926
+HOMER3	ITPR1	0	0	0	0	0	0	0	0	0	0	0.897
+HOMER3	GRM5	0	0	0	0	0	0	0	0	0	0	0.884
+HOMER3	DLG4	0	0	0	0	0	0	0	0	0	0	0.826
+HOMER3	SHANK2	0	0	0	0	0	0	0	0	0	0	0.819
+HOMER3	DLGAP1	0	0	0	0	0	0	0	0	0	0	0.808
+HOMER3	IKBKB	0	0	0	0	0	0	0	0	0	0	0.79

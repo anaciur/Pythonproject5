@@ -1,0 +1,11 @@
+#node1	node2	node1_string_id	node2_string_id	neighborhood_on_chromosome	gene_fusion	phylogenetic_cooccurrence	homology	coexpression	experimentally_determined_interaction	database_annotated	automated_textmining	combined_score
+DLG1	GRIA1	0	0	0	0	0	0	0	0	0	0	0.999
+DLG1	AKAP5	0	0	0	0	0	0	0	0	0	0	0.998
+DLG1	PTEN	0	0	0	0	0	0	0	0	0	0	0.998
+DLG1	GRIN2A	0	0	0	0	0	0	0	0	0	0	0.996
+DLG1	ADAM10	0	0	0	0	0	0	0	0	0	0	0.993
+DLG1	DLGAP1	0	0	0	0	0	0	0	0	0	0	0.992
+DLG1	APC	0	0	0	0	0	0	0	0	0	0	0.991
+DLG1	KIF13B	0	0	0	0	0	0	0	0	0	0	0.99
+DLG1	EPB41	0	0	0	0	0	0	0	0	0	0	0.989
+DLG1	SCN5A	0	0	0	0	0	0	0	0	0	0	0.988

@@ -1,0 +1,11 @@
+#node1	node2	node1_string_id	node2_string_id	neighborhood_on_chromosome	gene_fusion	phylogenetic_cooccurrence	homology	coexpression	experimentally_determined_interaction	database_annotated	automated_textmining	combined_score
+CDC42	PAK4	0	0	0	0	0	0	0	0	0	0	0.999
+CDC42	CDC42BPA	0	0	0	0	0	0	0	0	0	0	0.999
+CDC42	ITSN1	0	0	0	0	0	0	0	0	0	0	0.999
+CDC42	PARD6A	0	0	0	0	0	0	0	0	0	0	0.999
+CDC42	PAK2	0	0	0	0	0	0	0	0	0	0	0.999
+CDC42	TNK2	0	0	0	0	0	0	0	0	0	0	0.999
+CDC42	EXOC7	0	0	0	0	0	0	0	0	0	0	0.999
+CDC42	PAK1	0	0	0	0	0	0	0	0	0	0	0.999
+CDC42	PARD3	0	0	0	0	0	0	0	0	0	0	0.999
+CDC42	PARD6B	0	0	0	0	0	0	0	0	0	0	0.999

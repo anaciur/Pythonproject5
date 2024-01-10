@@ -1,0 +1,11 @@
+#node1	node2	node1_string_id	node2_string_id	neighborhood_on_chromosome	gene_fusion	phylogenetic_cooccurrence	homology	coexpression	experimentally_determined_interaction	database_annotated	automated_textmining	combined_score
+SHARPIN	RNF31	0	0	0	0	0	0	0	0	0	0	0.999
+SHARPIN	RBCK1	0	0	0	0	0	0	0	0	0	0	0.997
+SHARPIN	IKBKG	0	0	0	0	0	0	0	0	0	0	0.994
+SHARPIN	OTULIN	0	0	0	0	0	0	0	0	0	0	0.984
+SHARPIN	TNF	0	0	0	0	0	0	0	0	0	0	0.968
+SHARPIN	CYLD	0	0	0	0	0	0	0	0	0	0	0.968
+SHARPIN	TNFAIP3	0	0	0	0	0	0	0	0	0	0	0.962
+SHARPIN	SHANK1	0	0	0	0	0	0	0	0	0	0	0.961
+SHARPIN	TNFRSF1A	0	0	0	0	0	0	0	0	0	0	0.956
+SHARPIN	TRAF1	0	0	0	0	0	0	0	0	0	0	0.951

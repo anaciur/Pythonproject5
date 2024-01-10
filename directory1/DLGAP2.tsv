@@ -1,0 +1,11 @@
+#node1	node2	node1_string_id	node2_string_id	neighborhood_on_chromosome	gene_fusion	phylogenetic_cooccurrence	homology	coexpression	experimentally_determined_interaction	database_annotated	automated_textmining	combined_score
+DLGAP2	DLG4	0	0	0	0	0	0	0	0	0	0	0.958
+DLGAP2	SHANK2	0	0	0	0	0	0	0	0	0	0	0.954
+DLGAP2	SHANK1	0	0	0	0	0	0	0	0	0	0	0.952
+DLGAP2	DLG2	0	0	0	0	0	0	0	0	0	0	0.886
+DLGAP2	NRXN1	0	0	0	0	0	0	0	0	0	0	0.867
+DLGAP2	NLGN4X	0	0	0	0	0	0	0	0	0	0	0.85
+DLGAP2	SYNGAP1	0	0	0	0	0	0	0	0	0	0	0.828
+DLGAP2	NLGN3	0	0	0	0	0	0	0	0	0	0	0.827
+DLGAP2	DLG3	0	0	0	0	0	0	0	0	0	0	0.813
+DLGAP2	NRXN2	0	0	0	0	0	0	0	0	0	0	0.806

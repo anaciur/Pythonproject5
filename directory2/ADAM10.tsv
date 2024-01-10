@@ -1,0 +1,11 @@
+#node1	node2	node1_string_id	node2_string_id	neighborhood_on_chromosome	gene_fusion	phylogenetic_cooccurrence	homology	coexpression	experimentally_determined_interaction	database_annotated	automated_textmining	combined_score
+ADAM10	NOTCH1	0	0	0	0	0	0	0	0	0	0	0.996
+ADAM10	DLG1	0	0	0	0	0	0	0	0	0	0	0.993
+ADAM10	APP	0	0	0	0	0	0	0	0	0	0	0.992
+ADAM10	TSPAN5	0	0	0	0	0	0	0	0	0	0	0.991
+ADAM10	EPHA3	0	0	0	0	0	0	0	0	0	0	0.983
+ADAM10	TSPAN15	0	0	0	0	0	0	0	0	0	0	0.977
+ADAM10	DLL1	0	0	0	0	0	0	0	0	0	0	0.975
+ADAM10	NOTCH2	0	0	0	0	0	0	0	0	0	0	0.973
+ADAM10	DLL4	0	0	0	0	0	0	0	0	0	0	0.972
+ADAM10	JAG1	0	0	0	0	0	0	0	0	0	0	0.972
