@@ -51,6 +51,7 @@ class NestedList:
                                     add = 1
                                     break
 
+
             if add == 1:
                 if not is_in_list_of_lists(self.nested_list, protein):
                     sublist.append(protein.name)

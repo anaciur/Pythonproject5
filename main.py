@@ -1,7 +1,10 @@
 import csv
 from pyvis.network import Network
 
+import Combined_file_creator
+import List_Creator
 import delete_after_filename
+from Combined_file_creator import Create_combined_interactions_file
 from Nested_list_of_layers import NestedList
 from Visualize_Protein_Network import NetworkVisualizer, generate_random_color, rgb_to_hex
 from File_processor import InteractionProcessor
@@ -72,6 +75,12 @@ def create_nested_list_of_layers_selective(file_path, min_nb_of_int):
                             if count >= min_nb_of_int:
                                 add = 1
                                 break
+            for pr in total_proteins_nested_list[len(total_proteins_nested_list) - 1]:
+                if pr.name in protein.interactions:
+                    count += 1
+                    if count >= min_nb_of_int:
+                        add = 1
+                        break
 
         if add == 1:
             if not is_in_list_of_lists(total_proteins_nested_list_selective, protein):
@@ -145,18 +154,71 @@ def extend_graph_selective(file_path, s, Graph, nb_of_min_int, color=None):
                                        title=protein.interactions[interacting_protein])
 
 
-# add the scaffolds - layer 1
-extend_graph_selective('scaffolds.tsv', 60, graph1, 0)
+def create_lst_from_nl(nl: list[list]):
+    li = []
+    for l in nl:
+        for pr in l:
+            li.append(pr)
+    return li
 
-# add the interactions of all scaffolds with other proteins as layer 2
-#extend_graph_selective('scaffolds#.tsv', 60, graph1, 0)
+
+extension = '.tsv'  # Replace with the desired file extension
+source_directory = 'C:\\Users\\User\PycharmProjects\pythonProject5'  # Replace with the actual source directory path
+
+# add the scaffolds - layer 1
+extend_graph_selective('scaffolds.tsv', 35, graph1, 0)
 
 # add the interactions between scaffolds and layer2 proteins cumulative
-extend_graph_selective('scaffolds_2_layer_combined_interactions_within.tsv', 60, graph1, 0, 'black')
+#extend_graph_selective('scaffolds_2_layer_combined_interactions_within.tsv', 25, graph1, 1)
 
-# add the interactions of the 2nd layer as the 3rd layer
-#extend_graph_selective('2nd_layer#.tsv', 40, graph1, 1)
+
+def Graph_Expansion_one_more_layer(i, s, min_int):
+    last_list = n_l.nested_list[len(n_l.nested_list) - 1]
+    directory = f'C:\\Users\\User\PycharmProjects\pythonProject5\\directory{i}'
+    a = List_Creator.Update_List_using_last_layer_interactions(last_list, source_directory, extension, directory,
+                                                               f'up_to_layer_{i + 1}.tsv', n_l)
+    Combined_file_creator.Create_combined_interactions_file(f'up_to_layer{i + 1}_cumulative', a)
+    extend_graph_selective(f'up_to_layer{i + 1}_cumulative.tsv', s, graph1, min_int)
+
+
+def make_n_layer_graph(in_size, n, min_int):
+    s = in_size
+    for i in range(1, 2):
+        Graph_Expansion_one_more_layer(i, s, 1)
+        s = s - in_size / n
+        #min_int = min_int + 1
+    for i in range(2, n):
+        Graph_Expansion_one_more_layer(i, s, min_int)
+        s = s - in_size / n
+        min_int = min_int + 2
+
+
+make_n_layer_graph(20, 3,2)
 '''
+last_list = n_l.nested_list[len(n_l.nested_list) - 1]
+directory2 = 'C:\\Users\\User\PycharmProjects\pythonProject5\\directory2'
+a = List_Creator.Update_List_using_last_layer_interactions(last_list, source_directory, extension, directory2,
+                                                           'up_to_layer_3.tsv', n_l)
+Combined_file_creator.Create_combined_interactions_file('up_to_layer3_cumulative', a)
+extend_graph_selective('up_to_layer3_cumulative.tsv', 20, graph1, 3)
+
+last_list = n_l.nested_list[len(n_l.nested_list) - 1]
+directory3 = 'C:\\Users\\User\PycharmProjects\pythonProject5\\directory3'
+a = List_Creator.Update_List_using_last_layer_interactions(last_list, source_directory, extension, directory3,
+                                                           'up_to_layer_4.tsv', n_l)
+Combined_file_creator.Create_combined_interactions_file('up_to_layer4_cumulative', a)
+extend_graph_selective('up_to_layer4_cumulative.tsv', 10, graph1, 4)
+
+last_list = n_l.nested_list[len(n_l.nested_list) - 1]
+directory4 = 'C:\\Users\\User\PycharmProjects\pythonProject5\\directory4'
+a = List_Creator.Update_List_using_last_layer_interactions(last_list, source_directory, extension, directory4,
+                                                           'up_to_layer_5.tsv', n_l)
+Combined_file_creator.Create_combined_interactions_file('up_to_layer5_cumulative', a)
+extend_graph_selective('up_to_layer5_cumulative.tsv', 5, graph1, 5)
+
+
+
+
 # extend_graph('scaffolds_2nd_3rd_layer_interactions_all#.tsv', 10, graph1)
 
 # add the interactions of the the third ayer-i.e the 4 th layer
@@ -170,8 +232,8 @@ extend_graph_selective('5th_layer#.tsv', 10, graph1, 2)
 
 # add the interactions of the 6th layer - i.e the 7th layer
 extend_graph_selective('6th_layer#.tsv', 10, graph1, 2)
-'''
 
+'''
 
 for lst in total_proteins_nested_list:
     print(f"layer {total_proteins_nested_list.index(lst)}")
@@ -192,7 +254,7 @@ for lst in total_proteins_nested_list_selective:
     print(len(lst_str))
 
 for lst in n_l.nested_list:
-    lst_str = ["'{}'".format(pr) for pr in lst]
+    lst_str = ["{}".format(pr) for pr in lst]
     joined_str = ','.join(lst_str)
     print(f"layer {n_l.nested_list.index(lst)}")
     print(joined_str)
@@ -233,9 +295,8 @@ def main():
 
     QDPR_file_path = 'QDPR.tsv'
 
-
 # if __name__ == "__main__":
 # main()
 # Press the green button in the gutter to run the script.
-#for layer in total_proteins_nested_list:
-   # delete_after_filename.delete_after_name(f'{pr.name}.tsv' for pr in layer)
+# for layer in total_proteins_nested_list:
+# delete_after_filename.delete_after_name(f'{pr.name}.tsv' for pr in layer)
