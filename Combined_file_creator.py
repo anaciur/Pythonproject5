@@ -19,7 +19,7 @@ from get_files1 import create_file_if_not_exists
 
 
 def Create_combined_interactions_file(up_to_layer_i, my_genes):
-    string_api_url = "https://version-11-5.string-db.org/api"
+    string_api_url = "https://string-db.org/api"
     output_format = "tsv-no-header"
     method = "network"
 

@@ -89,17 +89,13 @@ def create_nested_list_of_layers_selective(file_path, min_nb_of_int):
 
 
 def extend_graph(file_path, s, Graph):
-    # file_path = 'scaffolds.tsv'
     interaction_processor = InteractionProcessor(file_path)
     interaction_processor.process_interactions()
-    # network_visualizer = NetworkVisualizer(interaction_processor.total_proteins)
     total_proteins.extend(interaction_processor.total_proteins)
 
     # this is a trial
     if Graph == graph1:
         create_nested_list_of_layers(file_path)
-
-    # this is a trial
 
     random_color = generate_random_color()
     hex_color = rgb_to_hex(*random_color)
@@ -137,7 +133,8 @@ def extend_graph_selective(file_path, s, Graph, nb_of_min_int, color=None):
     else:
         hex_color = color
     # Add nodes to the network
-    for protein in total_proteins:
+    #trial#####
+    for protein in interaction_processor.total_proteins:
         Graph.add_node(protein.name, label=protein.name, shape="dot", size=s, color=hex_color)
     # Add edges to the network
 
@@ -147,7 +144,8 @@ def extend_graph_selective(file_path, s, Graph, nb_of_min_int, color=None):
             # if len(protein.interactions) >= nb_of_min_int:
             # if is_in_list_of_lists(total_proteins_nested_list_selective, protein):
             for interacting_protein in protein.interactions:
-                for pr in total_proteins:
+                #trial####
+                for pr in interaction_processor.total_proteins:
                     if interacting_protein.name == pr.name:
                         Graph.add_edge(protein.name, interacting_protein.name,
                                        label=protein.interactions[interacting_protein],
@@ -168,8 +166,9 @@ source_directory = 'C:\\Users\\User\PycharmProjects\pythonProject5'  # Replace w
 # add the scaffolds - layer 1
 extend_graph_selective('scaffolds.tsv', 35, graph1, 0)
 
+
 # add the interactions between scaffolds and layer2 proteins cumulative
-#extend_graph_selective('scaffolds_2_layer_combined_interactions_within.tsv', 25, graph1, 1)
+# extend_graph_selective('scaffolds_2_layer_combined_interactions_within.tsv', 25, graph1, 1)
 
 
 def Graph_Expansion_one_more_layer(i, s, min_int):
@@ -184,16 +183,69 @@ def Graph_Expansion_one_more_layer(i, s, min_int):
 def make_n_layer_graph(in_size, n, min_int):
     s = in_size
     for i in range(1, 2):
-        Graph_Expansion_one_more_layer(i, s, 1)
+        # expansion from  scaffolds(layer 0) to layer 1
+        #ai = 1
+        Graph_Expansion_one_more_layer(i, s,4)
         s = s - in_size / n
-        #min_int = min_int + 1
-    for i in range(2, n):
-        Graph_Expansion_one_more_layer(i, s, min_int)
-        s = s - in_size / n
-        min_int = min_int + 2
 
 
-make_n_layer_graph(20, 3,2)
+    for i in range(2,n):
+        # expansion from layer 1 to layer 2
+        #aj = 2
+        Graph_Expansion_one_more_layer(i, s, 2)
+        s = s - in_size / n
+
+
+    for i in range(3, n):
+        Graph_Expansion_one_more_layer(i, s, 6)
+        s = s - in_size / n
+        min_int = min_int+0
+    for i in range(4, n):
+        Graph_Expansion_one_more_layer(i, s, 6)
+        s = s - in_size / n
+        min_int = min_int + 0
+        '''a=ai
+        b=aj
+        ai=b
+        aj=a+b'''
+        #min_int = min_int +3
+        '''
+    for i in range(6, n):
+        m = 2
+        Graph_Expansion_one_more_layer(i, s, m)
+        s = s - in_size / n
+        min_int = min_int +0'''
+
+
+make_n_layer_graph(20, 3,1)
+
+
+def find_max_protein():
+    l = []
+    l1= []
+    max1 = 0
+    for pr in total_proteins:
+        len=0
+        for i in pr.interactions:
+            len +=1
+        if len > max1:
+            max1 = len
+        if len not in l1:
+            l1.append(len)
+    for pr in total_proteins:
+        len = 0
+        for i in pr.interactions:
+            len += 1
+        if len == max1:
+            l.append(pr.name)
+    print(l)
+    print(max1)
+    print(l1)
+
+
+find_max_protein()
+
+
 '''
 last_list = n_l.nested_list[len(n_l.nested_list) - 1]
 directory2 = 'C:\\Users\\User\PycharmProjects\pythonProject5\\directory2'

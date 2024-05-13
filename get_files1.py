@@ -68,7 +68,8 @@ my_genes.extend(['NRAS','CDH5','AKT1S1','PRR5','MAPKAP1','TTI1','ATG4B','ATG3','
 
 
 def get_files_from_list(my_genes):
-    string_api_url = "https://version-11-5.string-db.org/api"
+    #version-11-5.
+    string_api_url = "https://string-db.org/api"
     # string_api_url = "https://version-12.string-db.org/api"
     output_format = "tsv-no-header"
     method = "interaction_partners"
