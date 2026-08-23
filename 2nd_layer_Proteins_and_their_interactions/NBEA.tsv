@@ -1,0 +1,11 @@
+#node1	node2	node1_string_id	node2_string_id	neighborhood_on_chromosome	gene_fusion	phylogenetic_cooccurrence	homology	coexpression	experimentally_determined_interaction	database_annotated	automated_textmining	combined_score
+NBEA	DLG3	0	0	0	0	0	0	0	0	0	0	0.963
+NBEA	NOTCH1	0	0	0	0	0	0	0	0	0	0	0.909
+NBEA	MAB21L1	0	0	0	0	0	0	0	0	0	0	0.902
+NBEA	PRKAR2A	0	0	0	0	0	0	0	0	0	0	0.9
+NBEA	DCLK1	0	0	0	0	0	0	0	0	0	0	0.816
+NBEA	PRKACB	0	0	0	0	0	0	0	0	0	0	0.779
+NBEA	GLRB	0	0	0	0	0	0	0	0	0	0	0.777
+NBEA	PRKACA	0	0	0	0	0	0	0	0	0	0	0.773
+NBEA	PRKACG	0	0	0	0	0	0	0	0	0	0	0.772
+NBEA	SMAD9	0	0	0	0	0	0	0	0	0	0	0.682
