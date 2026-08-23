@@ -76,7 +76,7 @@ def create_nested_list_of_layers_selective(file_path, min_nb_of_int):
                                 add = 1
                                 break
             for pr in total_proteins_nested_list[len(total_proteins_nested_list) - 1]:
-                if pr.name in protein.interactions:
+                if any(pr.name == x.name for x in protein.interactions):
                     count += 1
                     if count >= min_nb_of_int:
                         add = 1
@@ -172,7 +172,8 @@ extend_graph_selective('scaffolds.tsv', 35, graph1, 0)
 
 
 def Graph_Expansion_one_more_layer(i, s, min_int):
-    last_list = n_l.nested_list[len(n_l.nested_list) - 1]
+    #last_list = n_l.nested_list[len(n_l.nested_list) - 1]
+    last_list = [pr.name for pr in total_proteins_nested_list_selective[len(total_proteins_nested_list_selective) - 1]]
     directory = f'C:\\Users\\User\PycharmProjects\pythonProject5\\directory{i}'
     a = List_Creator.Update_List_using_last_layer_interactions(last_list, source_directory, extension, directory,
                                                                f'up_to_layer_{i + 1}.tsv', n_l)
@@ -185,31 +186,32 @@ def make_n_layer_graph(in_size, n, min_int):
     for i in range(1, 2):
         # expansion from  scaffolds(layer 0) to layer 1
         #ai = 1
-        Graph_Expansion_one_more_layer(i, s,4)
+        Graph_Expansion_one_more_layer(i, s,3)
         s = s - in_size / n
 
 
-    for i in range(2,n):
+    for i in range(2,3):
         # expansion from layer 1 to layer 2
         #aj = 2
         Graph_Expansion_one_more_layer(i, s, 2)
         s = s - in_size / n
 
 
-    for i in range(3, n):
-        Graph_Expansion_one_more_layer(i, s, 6)
+    for i in range(3, 4):
+        Graph_Expansion_one_more_layer(i, s, 3)
         s = s - in_size / n
         min_int = min_int+0
     for i in range(4, n):
         Graph_Expansion_one_more_layer(i, s, 6)
         s = s - in_size / n
         min_int = min_int + 0
-        '''a=ai
+
+    ''' a=ai
         b=aj
         ai=b
-        aj=a+b'''
-        #min_int = min_int +3
-        '''
+        aj=a+b
+        # min_int = min_int +3'''
+    '''
     for i in range(6, n):
         m = 2
         Graph_Expansion_one_more_layer(i, s, m)
@@ -217,7 +219,7 @@ def make_n_layer_graph(in_size, n, min_int):
         min_int = min_int +0'''
 
 
-make_n_layer_graph(20, 3,1)
+make_n_layer_graph(20, 2,2)
 
 
 def find_max_protein():
@@ -345,7 +347,7 @@ def main():
     network_visualizer = NetworkVisualizer(interaction_processor.total_proteins)
     network_visualizer.visualize_network()'''
 
-    QDPR_file_path = 'QDPR.tsv'
+    #QDPR_file_path = 'QDPR.tsv'
 
 # if __name__ == "__main__":
 # main()
